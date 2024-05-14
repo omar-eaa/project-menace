@@ -1,92 +1,120 @@
+/* titel font here 👇 font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400; */
 
-/*  titel font here 👇
-  font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400; 
- */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-:root{
-    --fire-brick: rgb(228, 224, 224);
+:root {
+    --fire-brick: rgb(167, 61, 40);
     --special-grey: rgb(232, 232, 232);
-
 }
-body{}
+
+body {}
 
 header {
     background-color: white;
-    text-align: center; /* Center the content horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    text-align: center;
+    /* Center the content horizontally */
+    padding: 20px;
+    /* Add some padding for spacing */
 }
+
 header nav {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    /* Distribute items evenly */
+    align-items: center;
+    /* Center items vertically */
 }
+
 .left-nav ul {
     display: flex;
-    list-style: none; /* Remove default list styles */
+    /* Remove default list styles */
+    list-style: none;
 }
+
 .left-nav ul li {
-    padding-right: 24px; /* Optional: Add some spacing between list items */
+    /* Optional: Add some spacing between list items */
+    padding-right: 24px;
     font-size: 1rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 200;
 }
+
 .mid-nav h1 {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    padding-right: 200px ;
+    padding-right: 200px;
 }
-.right-nav i{
+
+.right-nav i {
     font-size: 2rem;
 }
 
-
 /* styling front page video 👇 */
-.font-page-video{
-    position: absolute;
-    top: 10%;
-    left: 0;
+.video-section {
+    position: relative; /* Change to relative positioning */
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.font-page-video {
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
 }
-.btn {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    background-color: transparent; /* Set background to transparent */
-    color: #ffffff; /* Text color */
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: 2px solid #ffffff; /* White border */
-    cursor: pointer;
-    transition: background-color 0.3s; /* Smooth transition for background color change */
-}
-.btn:hover {
-    background-color: #ffffff; /* Change background color to white on hover */
-    color: #000000; /* Change text color to black on hover */
-}
 
-.front-page-h1{
+.front-page-btn-h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    gap: 2rem;
     position: absolute;
     top: 50%;
-    left: 32%; 
-    z-index: 1; 
-    color: #ffffff; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-page-h1 {
+    color: #ffffff;
     text-transform: uppercase;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 200;
 }
 
+.btn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.arrow-container {
+    position: absolute;
+    bottom: 20px;
+    /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-down {
+    font-size: 2rem;
+    color: var(--fire-brick);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
 
 
 
@@ -96,3 +124,80 @@ header nav {
 
 
 
+
+
+
+
+
+
+/* email container section 👇 */
+.email-member-section {
+    background-color: white;
+    /* Black background color for the section */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Add some padding */
+    position: relative; /* Change to relative positioning */
+    margin-top: 20%; /* Adjust margin to create space between sections */
+    margin-bottom: 20%; /* Adjust margin to create space between sections */
+
+}
+
+.email-container {
+    width: 80%;
+    /* Set width of the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    text-align: center;
+    /* Center text horizontally */
+}
+
+.input-area {
+    display: flex;
+    gap: 2rem;
+    padding-left: 30%;
+}
+
+.email-container h2 {
+    font-size: 3rem;
+    /* Adjust heading font size */
+    margin-bottom: 10px;
+    color: var(--fire-brick);
+    /* Add some space below the heading */
+}
+
+.email-container p {
+    font-size: 1.5rem;
+    /* Adjust paragraph font size */
+    margin-bottom: 20px;
+    color: #000000;
+    /* Add some space below the paragraph */
+}
+
+.email-container span{
+    color: var(--fire-brick);
+}
+
+.email-container input[type="text"] {
+    width: 40%;
+    /* Set input field width to 100% */
+    padding: 10px;
+    /* Add some padding */
+    margin-bottom: 10px;
+    /* Add some space below the input field */
+}
+
+.email-container input[type="submit"] {
+    background-color: white;
+    /* Use the fire-brick color for the button background */
+    color: var(--fire-brick);
+    /* Text color */
+    border: 2px solid black; /* Add a black border */
+    /* Remove border */
+    padding: 10px 20px;
+    /* Add padding */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    font-size: 2rem;
+}
