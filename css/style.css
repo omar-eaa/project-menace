@@ -59,7 +59,7 @@ header nav {
 
 /* styling drop down 👇 */
 
-
+/* shop👇 */
 .shop-nav-container {
     display: flex;
     align-items: stretch; /* Make items stretch vertically */
@@ -101,9 +101,37 @@ header nav {
 
 .accessories-li{
     padding-top: 5%;
-
 }
 
+
+/* om os 👇 */
+.om-os-nav-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+.om-os-nav-area{
+    display: flex;
+    gap: 20%;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 39%;
+}
+
+
+.bæredygtighed{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+.vision-mission-vædier {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
 /* styling drop down 👆 */
 
 
