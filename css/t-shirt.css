@@ -150,7 +150,8 @@ header nav {
 
 .urban {
     display: grid;
-    grid-template-columns: repeat(4, 3fr); /* 4 columns */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
     gap: 20px; /* Gap between grid items */
     justify-content: center; /* Center the grid items horizontally */
     align-items: center; /* Center the grid items vertically */
@@ -172,8 +173,8 @@ header nav {
     /* Style individual hoodie containers as needed */
     text-align: center;
     transition: border-color 0.3s ease; /* Add transition for smooth effect */
-
 }
+
 .urban .hoodie-1-container:hover,
 .urban .hoodie-2-container:hover,
 .urban .hoodie-3-container:hover,
