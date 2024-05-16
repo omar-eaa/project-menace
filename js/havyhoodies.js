@@ -36,3 +36,10 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const homePage = document.getElementById("homePage");
+  homePage.addEventListener("click", function () {
+    window.location.href = "../index.html";
+  });
+});

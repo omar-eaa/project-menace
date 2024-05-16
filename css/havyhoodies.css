@@ -15,6 +15,10 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 
 body {}
 
+
+#homePage{
+    cursor: pointer;
+}
 header {
     background-color: white;
     text-align: center;
