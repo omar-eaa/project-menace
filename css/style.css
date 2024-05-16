@@ -663,7 +663,7 @@ header nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20%;
+    
 }
 .thank-you-message-container h2 {
     color: var(--fire-brick);

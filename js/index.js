@@ -38,20 +38,19 @@ omOsNavContainer.addEventListener("mouseleave", () => {
 });
 
 // thank you message 📧👇
-// Get the button element and message container
+
 const subscribeButton = document.getElementById("subscribeButton");
 const messageContainer = document.getElementById("messageContainer");
 const emailSection = document.getElementById("emailSection");
-// Hide the message container by default
+
 messageContainer.style.display = "none";
 
-// Add a click event listener to the button
 subscribeButton.addEventListener("click", function () {
-  // Show the message container
   messageContainer.style.display = "block";
+  emailSection.style.display = "none";
 
-  // Hide the message container after 3 seconds
   setTimeout(function () {
     messageContainer.style.display = "none";
+    emailSection.style.display = "block";
   }, 3000);
 });
