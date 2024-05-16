@@ -142,9 +142,28 @@ header nav {
 
 #bear{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
 }
 
 .bear1{
     width: 100%;
+}
+
+.square {
+    position: absolute;
+    top: 32%;
+    width: 700px; /* Adjust size as needed */
+    height: 250px; /* Same as width to make it a square */
+    text-align: center; /* Center align the text */
+    line-height: 200px; /* Center vertically */
+    border: 5px solid  #ffffff;;
+    left: 25%;
+}
+
+
+.square p{
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 10px;
+    color: #ffffff;
 }
