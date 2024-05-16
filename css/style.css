@@ -447,6 +447,16 @@ header nav {
 
 
 /* instagram area 👇 */
+
+.instagram-titel{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 5rem;
+    font-weight: 100;
+}
+
 .instagram-area{
     padding-top: 20%;
 }
@@ -460,6 +470,10 @@ header nav {
 .ig-img{
     height: auto;
     width: 20%;
+}
+.ig-img:hover{
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 
