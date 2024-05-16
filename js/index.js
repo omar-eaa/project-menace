@@ -54,3 +54,36 @@ subscribeButton.addEventListener("click", function () {
     emailSection.style.display = "block";
   }, 3000);
 });
+
+// link connection area 👇
+
+// link to heavyweightHoodie
+document.addEventListener("DOMContentLoaded", function () {
+  const heavyweightHoodie = document.getElementById("heavyweightHoodie");
+  heavyweightHoodie.addEventListener("click", function () {
+    window.location.href = "../html/havyhoodies.html";
+  });
+});
+// link to bæredygtighed
+document.addEventListener("DOMContentLoaded", function () {
+  const bæredygtighed = document.getElementById("bæredygtighed");
+  bæredygtighed.addEventListener("click", function () {
+    window.location.href = "../html/bearedygtighed.html";
+  });
+});
+
+// link to vision mision vædier
+document.addEventListener("DOMContentLoaded", function () {
+  const vMv = document.getElementById("vMv");
+  vMv.addEventListener("click", function () {
+    window.location.href = "../html/Om-os.html";
+  });
+});
+
+// link to coming zoon
+document.addEventListener("DOMContentLoaded", function () {
+  const comingSoon = document.getElementById("comingSoon");
+  comingSoon.addEventListener("click", function () {
+    window.location.href = "../html/comming-soon.html";
+  });
+});
