@@ -167,3 +167,22 @@ header nav {
     margin-top: 10px;
     color: #ffffff;
 }
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    gap: 10rem;
+}
+
+#stop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 900;
+    gap: 5rem;
+    margin-top: -15%;
+    font-size: 1.2rem;
+}
