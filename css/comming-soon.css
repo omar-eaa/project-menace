@@ -50,7 +50,7 @@ header nav {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    padding-right: 200px;
+    padding-right: 350px;
 }
 
 .right-nav i {
@@ -171,10 +171,28 @@ header nav {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
-    margin-top: -900px;
-    color: rgb(167, 61, 40);
+    margin-top: -1080px;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     }
+
+    .text-overlay p{
+        margin-top: -20px;
+    }
+
+    .signuohere{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    margin-top: -650px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+
+    }
+
 
 .signup{
     position: absolute;
@@ -184,7 +202,7 @@ header nav {
     text-align: center;
     z-index: 1;
     margin-top: -600px;
-    color: rgb(167, 61, 40);
+    color: rgb(255, 255, 255);
     font-size: 90px;
-    width: 80%;
+    
 }
