@@ -208,12 +208,23 @@ header nav {
 
 /* bestseller 👇 */
 
+
+
+.bestseller-titel{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 5rem;
+    font-weight: 100;
+  
+}
 /* scoll css */
 .product-front-page {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent wrapping of child elements */
     padding: 20px; /* Add some padding */
-    padding-top: 40%;
+    padding-top: 10%;
 }
 
 .bestsellers-container {
@@ -389,6 +400,44 @@ header nav {
     color: var(--fire-brick);
 }
 
+
+
+
+
+
+/* hover effekt */
+/* Hoodie Box */
+.hoddie-box:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+/* Sweatshirt Box */
+.sweatshirt-box:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+/* T-shirt Box */
+.t-shirt-box:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+/* Cap Box */
+.cap-box:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+/* Add transition effect for smooth hover transition */
+.hoddie-box,
+.sweatshirt-box,
+.t-shirt-box,
+.cap-box {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+    cursor: pointer;
+}
 /* bestseller 👆 */
 
 
@@ -397,7 +446,24 @@ header nav {
 
 
 
+/* instagram area 👇 */
+.instagram-area{
+    padding-top: 20%;
+}
+.instagram-post-container{
+    display: flex;
+    justify-content: center;
+    
+}
 
+
+.ig-img{
+    height: auto;
+    width: 20%;
+}
+
+
+/* instagram  area 👆 */
 
 
 
