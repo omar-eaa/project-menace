@@ -145,9 +145,7 @@ header nav {
 }
 
 .urban{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+ 
     padding-top: 10%;
     padding-bottom: 20%;
     gap: 10rem;
