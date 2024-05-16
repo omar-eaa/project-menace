@@ -531,6 +531,15 @@ header nav {
     cursor: pointer;
 }
 
+
+.brand-container li:hover,
+.support-container li:hover,
+.juridiske-info-container li:hover {
+    /* Change text color on hover */
+    color: #000000;
+    /* Add any other styles you want to apply on hover */
+}
+
 .icons-container{
     display: flex;
     gap: 2%;
