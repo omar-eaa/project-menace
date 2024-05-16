@@ -36,3 +36,21 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
 });
+
+// thank you message 📧👇
+
+const subscribeButton = document.getElementById("subscribeButton");
+const messageContainer = document.getElementById("messageContainer");
+const emailSection = document.getElementById("emailSection");
+
+messageContainer.style.display = "none";
+
+subscribeButton.addEventListener("click", function () {
+  messageContainer.style.display = "block";
+  emailSection.style.display = "none";
+
+  setTimeout(function () {
+    messageContainer.style.display = "none";
+    emailSection.style.display = "block";
+  }, 3000);
+});

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css ">
     <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -200,7 +203,7 @@
 
 
     <!-- email  -->
-    <section class="email-member-section " style="display: block;" >
+    <section id="emailSection" class="email-member-section" >
 
         <div class="email-container">
             <h2>Become A Member</h2>
@@ -208,17 +211,24 @@
                 <p>Sign Up for Our Email List and Recieve <span>10%</span> off your first order</p>
                 <div class="input-area">
                     <input type="text" placeholder="E-mail..........">
-                    <input type="submit" value="Subscribe">
+                    <input id="subscribeButton"   type="submit" value="Subscribe">
                 </div>
             </div>           
         </div>
     </section>
     
-
-        <div class="thank-you-message-container">
+ <div id="messageContainer" class="animate__animated animate__fadeOutLeft animate__delay-2s">
+    <div  class="thank-you-message-container" > 
+        <div class="thank-you-message-h2-p">
             <h2>Welcome!!</h2>
-            <p>And email have been sendt to you with a discorn code </p>
-        </div>
+            <p>And email have been sendt to </p>
+            <p>you with a discorn code</p>
+        </div>        
+    </div>
+
+ </div>
+    
+       
 
 
 
