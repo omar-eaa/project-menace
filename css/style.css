@@ -480,8 +480,67 @@ header nav {
 /* instagram  area 👆 */
 
 
+/* footer area 👇 */
+
+.footer-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 10%;
+}
+.footer-tekst-container{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+.line-black{
+  height: auto;
+   width: 90%;
+   padding-left: 10%;
+}
 
 
+.brand-container p{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 18%;
+    cursor: pointer;
+}
+.support-container p{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+.juridiske-info-container p {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 6%;
+    cursor: pointer;
+
+}
+.brand-container li, 
+.support-container li,
+.juridiske-info-container li {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 10%;
+    color: #989595;
+    cursor: pointer;
+}
+
+.icons-container{
+    display: flex;
+    gap: 2%;
+    padding-left: 13%;
+}
+
+
+
+
+/* footer area 👆 */
 
 
 
