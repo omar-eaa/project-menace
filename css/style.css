@@ -206,6 +206,203 @@ header nav {
 
 
 
+/* bestseller 👇 */
+
+/* scoll css */
+.product-front-page {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of child elements */
+    padding: 20px; /* Add some padding */
+    padding-top: 40%;
+}
+
+.bestsellers-container {
+    display: inline-flex; /* Display child elements in a row */
+    gap: 20%; /* Add some space between child elements */
+}
+
+/* Maintain the styles for individual product containers */
+.heavyweight-hoodie-container,
+.sweatshirt-container,
+.t-shirt-container,
+.cap-container {
+    /* Maintain existing styles */
+    display: flex;
+    flex-direction: column;
+    
+    /* Add any other styles you want to keep */
+}
+
+
+
+
+
+/* hoodie */
+.heavyweight-hoodie-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hoddie-box {
+    border: 2px solid #000000;
+    background-color: #dad7d7;
+    height: auto;
+    width: 160%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heavyweight-hoodie-img {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+.hoddie-box span{
+    background: var(--fire-brick);
+    border-radius: 2px;
+    color: #fff;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    width: 30%;
+}
+.heavyweight-hoodie-tekst{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+   font-size: 20px;
+}
+.pris-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.rabat{
+    text-decoration: line-through;
+    color: #989595;
+}
+
+.pris{
+    color: var(--fire-brick);
+}
+
+
+
+
+/*  sweatshirt*/
+.sweatshirt-hoodie-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sweatshirt-box {
+    border: 2px solid #000000;
+    background-color: #dad7d7;
+    height: auto;
+    width: 160%;
+    border-radius: 10px;
+}
+
+.sweatshirt-img {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.sweatshirt-tekst{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+   font-size: 20px;
+}
+.pris-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.pris{
+    color: var(--fire-brick);
+}
+
+
+
+/* t-shirt */
+.t-shirt-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.t-shirt-box {
+    border: 2px solid #000000;
+    background-color: #dad7d7;
+    height: auto;
+    width: 160%;
+    border-radius: 10px;
+}
+
+.t-shirt-img {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.t-shirt-tekst{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+   font-size: 20px;
+}
+.pris-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.pris{
+    color: var(--fire-brick);
+}
+
+
+/* cap */
+.cap-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cap-box {
+    border: 2px solid #000000;
+    background-color: #dad7d7;
+    height: auto;
+    width: 160%;
+    border-radius: 10px;
+}
+
+.cap-img {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.cap-tekst{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+   font-size: 20px;
+}
+.cap-container{
+    display: flex;
+
+    gap: 2rem;
+}
+.pris{
+    color: var(--fire-brick);
+}
+
+/* bestseller 👆 */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
