@@ -17,19 +17,22 @@ shopElement.addEventListener("mouseover", () => {
   // Show the shop nav container
   shopNavContainer.style.display = "block";
   shopNavContainer.style.display = "flex";
+  // Hide the omOs nav container
+  omOsNavContainer.style.display = "none";
 });
 shopNavContainer.addEventListener("mouseleave", () => {
-  // Show the shop nav container
+  // Hide the shop nav container
   shopNavContainer.style.display = "none";
 });
 
-// Add event listener for mouseover event on omOs element or  om os nav container
+// Add event listener for mouseover event on omOs element or om os nav container
 omOsElement.addEventListener("mouseover", () => {
-  // Show the shop nav container
+  // Show the omOs nav container
   omOsNavContainer.style.display = "block";
-  //   shopNavContainer.style.display = "flex";
+  // Hide the shop nav container
+  shopNavContainer.style.display = "none";
 });
 omOsNavContainer.addEventListener("mouseleave", () => {
-  // Show the shop nav container
+  // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
 });
