@@ -139,6 +139,14 @@ header nav {
 /* styling drop down 👆 */
 
 
+
+.havy{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    color: brown;
+ }
+
 .urban {
     display: grid;
     grid-template-columns: repeat(1, 3fr); /* 4 columns */
@@ -154,8 +162,4 @@ header nav {
     max-width: 10%; /* Ensure images don't overflow the container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
-}
-
-.brown{
-    max-width: 30%;
 }
