@@ -194,7 +194,7 @@ header nav {
     }
 
 
-.signup{
+/* .signup{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -205,4 +205,40 @@ header nav {
     color: rgb(255, 255, 255);
     font-size: 90px;
     
+} */
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    margin-top: -600px;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+/* Input styles */
+.signup input[type="email"], .signup input[type="submit"] {
+    padding: 15px;
+    font-size: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.signup input[type="email"] {
+    width: 300px;
+    max-width: 100%;
+}
+
+.signup input[type="submit"] {
+    background-color: var(--fire-brick);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup input[type="submit"]:hover {
+    background-color: darkred;
 }
