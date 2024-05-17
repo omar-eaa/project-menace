@@ -11,6 +11,7 @@
 
 body {}
 
+
 header {
     background-color: white;
     text-align: center;
@@ -131,8 +132,12 @@ header nav {
 /* styling drop down 👆 */
 
 
-/* jerseys container styiling 👇  */
-.jerseys{
+
+
+
+
+/* sweatshirt container styiling 👇  */
+.sweatshirt{
     text-align: center;
     margin-top: 5%;
 }
@@ -147,35 +152,15 @@ header nav {
     margin-top: 5%; /* Adjust margin as needed */
 }
 
-.urban .jerseys-1-container,
-.urban .jerseys-2-container,
-.urban .jerseys-3-container,
-.urban .jerseys-4-container,
-.urban .jerseys-5-container,
-.urban .jerseys-6-container,
-.urban .jerseys-7-container,
-.urban .jerseys-8-container,
-.urban .jerseys-9-container,
-.urban .jerseys-10-container,
-.urban .jerseys-11-container,
-.urban .jerseys-12-container {
-    /* Style individual jerseys containers as needed */
+.urban .sweatshirt-1-container,
+.urban .sweatshirt-2-container {
+    /* Style individual sweatshirt containers as needed */
     text-align: center;
     transition: border-color 0.3s ease; /* Add transition for smooth effect */
 }
 
-.urban .jerseys-1-container:hover,
-.urban .jerseys-2-container:hover,
-.urban .jerseys-3-container:hover,
-.urban .jerseys-4-container:hover,
-.urban .jerseys-5-container:hover,
-.urban .jerseys-6-container:hover,
-.urban .jerseys-7-container:hover,
-.urban .jerseys-8-container:hover,
-.urban .jerseys-9-container:hover,
-.urban .jerseys-10-container:hover,
-.urban .jerseys-11-container:hover,
-.urban .jerseys-12-container:hover {
+.urban .sweatshirt-1-container:hover,
+.urban .sweatshirt-2-container:hover{
     border: 2px solid #000000; /* Add border on hover */
     padding-top: 5%;
 }
@@ -187,4 +172,4 @@ header nav {
     background-color: #dad7d7;
     border-radius: 10px;
 }
-/* jerseys container styiling 👆  */
+/* sweatshirt container styiling 👆  */
