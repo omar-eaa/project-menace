@@ -175,6 +175,9 @@ header nav {
     color: rgb(255, 255, 255);
     font-size: 50px;
     }
+.text-overlay-p{
+    padding-top: 4%;
+}
 
     .text-overlay p{
         margin-top: -20px;
@@ -190,7 +193,12 @@ header nav {
     margin-top: -650px;
     color: rgb(255, 255, 255);
     font-size: 50px;
-
+    padding-top: 2%;
+    padding-bottom: 4%;
+    }
+    .signup input[type="email"]::placeholder {
+        font-size: 1rem; /* Adjust the size as needed */
+        color: #999; /* Optional: Change the color for better visibility */
     }
 
 
