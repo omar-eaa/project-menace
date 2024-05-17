@@ -87,3 +87,43 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "../html/comming-soon.html";
   });
 });
+
+// link to t-shirt
+document.addEventListener("DOMContentLoaded", function () {
+  const tShirt = document.getElementById("tShirt");
+  tShirt.addEventListener("click", function () {
+    window.location.href = "../html/t-shirt.html";
+  });
+});
+
+// link to jackets
+document.addEventListener("DOMContentLoaded", function () {
+  const jackets = document.getElementById("jackets");
+  jackets.addEventListener("click", function () {
+    window.location.href = "../html/jackets.html";
+  });
+});
+
+// link to jeans
+document.addEventListener("DOMContentLoaded", function () {
+  const jeans = document.getElementById("jeans");
+  jeans.addEventListener("click", function () {
+    window.location.href = "../html/jeans.html";
+  });
+});
+
+// link to jerseys
+document.addEventListener("DOMContentLoaded", function () {
+  const jerseys = document.getElementById("jerseys");
+  jerseys.addEventListener("click", function () {
+    window.location.href = "../html/jerseys.html";
+  });
+});
+
+// link to sweatshirts
+document.addEventListener("DOMContentLoaded", function () {
+  const sweatshirts = document.getElementById("sweatshirts");
+  sweatshirts.addEventListener("click", function () {
+    window.location.href = "../html/sweatshirts.html";
+  });
+});
