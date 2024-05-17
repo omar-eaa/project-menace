@@ -1,0 +1,201 @@
+/* titel font here 👇 
+font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fire-brick: rgb(167, 61, 40);
+    --special-grey: rgb(232, 232, 232);
+}
+
+body {}
+
+
+#homePage{
+    cursor: pointer;
+}
+header {
+    background-color: white;
+    text-align: center;
+    /* Center the content horizontally */
+    padding: 20px;
+    /* Add some padding for spacing */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute items evenly */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.left-nav ul {
+    display: flex;
+    /* Remove default list styles */
+    list-style: none;
+}
+
+.left-nav ul li {
+    /* Optional: Add some spacing between list items */
+    padding-right: 24px;
+    font-size: 1rem;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 200;
+}
+
+.mid-nav h1 {
+    font-size: 2rem;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    padding-right: 200px;
+}
+
+.right-nav i {
+    font-size: 2rem;
+}
+
+
+/* styling drop down 👇 */
+
+/* shop👇 */
+.shop-nav-container {
+    display: flex;
+    align-items: stretch; /* Make items stretch vertically */
+    gap: 20%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+
+.shop-left-area{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.all-clothing{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
+    
+}
+.all-clothing-li{
+    padding-top: 5%;
+    
+}
+
+.shop-left-area {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    flex: 1; /* Allow flex-grow to fill the available space */
+}
+.shop-left-area ul li {
+    list-style: none;
+    padding-top: 10%;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+}
+.accessories{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
+}
+
+.accessories-li{
+    padding-top: 5%;
+}
+
+
+/* om os 👇 */
+.om-os-nav-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+.om-os-nav-area{
+    display: flex;
+    gap: 20%;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 39%;
+}
+
+
+.bæredygtighed{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+.vision-mission-vædier {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+/* styling drop down 👆 */
+
+
+
+
+
+/* hoodie container styiling 👇  */
+.hoodies{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.urban {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Center the grid items vertically */
+    margin-top: 5%; /* Adjust margin as needed */
+}
+
+.urban .hoodie-1-container,
+.urban .hoodie-2-container,
+.urban .hoodie-3-container,
+.urban .hoodie-4-container,
+.urban .hoodie-5-container,
+.urban .hoodie-6-container,
+.urban .hoodie-7-container,
+.urban .hoodie-8-container,
+.urban .hoodie-9-container,
+.urban .hoodie-10-container,
+.urban .hoodie-11-container,
+.urban .hoodie-12-container {
+    /* Style individual hoodie containers as needed */
+    text-align: center;
+    transition: border-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.urban .hoodie-1-container:hover,
+.urban .hoodie-2-container:hover,
+.urban .hoodie-3-container:hover,
+.urban .hoodie-4-container:hover,
+.urban .hoodie-5-container:hover,
+.urban .hoodie-6-container:hover,
+.urban .hoodie-7-container:hover,
+.urban .hoodie-8-container:hover,
+.urban .hoodie-9-container:hover,
+.urban .hoodie-10-container:hover,
+.urban .hoodie-11-container:hover,
+.urban .hoodie-12-container:hover {
+    border: 2px solid #000000; /* Add border on hover */
+    padding-top: 5%;
+}
+
+.urban img {
+    max-width: 60%; /* Ensure images don't overflow the container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000000;
+    background-color: #dad7d7;
+    border-radius: 10px;
+}
+/* hoodie container styiling 👆  */
