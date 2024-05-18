@@ -139,26 +139,31 @@ header nav {
 /* styling drop down 👆 */
 
 
-.urban {
-    display: grid;
-    grid-template-columns: repeat(1, 3fr); /* 4 columns */
-    gap: 20px; /* Gap between grid items */
-    justify-content: center; /* Center the grid items horizontally */
-    align-items: center; /* Center the grid items vertically */
-    margin-top: 5%; /* Adjust margin as needed */
-    margin-left: 10%;
 
+/* styling left area 👇 */
+.hoodie-container{
+    display: flex;
+    flex-direction: row;
+}
+.left-area{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.big-img-hoodie{
+    height: auto;
+    width: 60vh;
+}
+.small-img-hoodie{
+    height: auto;
+    width: 20vh;
 }
 
-.urban img {
-    max-width: 10%; /* Ensure images don't overflow the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px;
+.small-img-hoodie-container{
+    display: flex;
+    flex-direction: column;
 }
 
-.havy{
-   display: flex;
-   align-items: center;
-   width: 30%;
-   color: brown;
-}
+
+
+/* styling left area 👆 */

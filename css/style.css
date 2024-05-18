@@ -213,12 +213,13 @@ header nav {
 .bestseller-titel{
     display: flex;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-top: 10%;
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     font-size: 5rem;
     font-weight: 100;
-  
 }
+
+
 /* scoll css */
 .product-front-page {
     overflow-x: auto; /* Enable horizontal scrolling */

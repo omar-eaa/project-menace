@@ -13,7 +13,9 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     --special-grey: rgb(232, 232, 232);
 }
 
-body {}
+body {
+    position: fixed;
+}
 
 header {
     background-color: rgb(255, 255, 255);
