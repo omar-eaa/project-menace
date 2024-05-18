@@ -13,7 +13,9 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     --special-grey: rgb(232, 232, 232);
 }
 
-body {}
+body {
+    padding-bottom: 10%;
+}
 
 
 #homePage{
@@ -144,11 +146,21 @@ header nav {
 .hoodie-container{
     display: flex;
     flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
 }
 .left-area{
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+}
+.right-area{
+    display: flex;
+    flex-direction: column;
+  
+    
 }
 .big-img-hoodie{
     height: auto;
@@ -195,6 +207,7 @@ header nav {
 .color-options-container{
     display: flex;
     flex-direction: column;
+    padding-top: 7%;
 }
 
 .color-options-container h2{
@@ -211,36 +224,126 @@ header nav {
 .color-box1{
     width: 40px; 
     height: 35px; 
-    background-color: black; 
+    background-color: gold; 
 }
 .color-box2{
     width: 40px; 
     height: 35px;  
-    background-color: rgb(94, 82, 82); 
+    background-color:gray; 
 }
 .color-box3{
     width: 40px; 
     height: 35px; 
-    background-color: rgb(146, 29, 29); 
+    background-color: green; 
 }
 
 
-.size-container{
+.size-container {
     display: flex;
     flex-direction: column;
+    padding-top: 7%;
 }
-.s-m-l-x-xxl-container{
+
+.s-m-l-x-xxl-container {
     display: flex;
     flex-direction: row;
     gap: 4px;
 }
 
-.size-container h2{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+.size-container h2 {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
     font-size: 2.5rem;
     color: rgb(67, 66, 66);
 }
 
+.size-s, .size-m, .size-l, .size-xl, .size-xxl {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1rem;          /* Adjust font size if necessary */
+}
+
+
+
+.pay-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.checkout-button {
+    display: inline-block;
+    padding: 5px 15px;          /* Increase padding for a bigger button */
+    background-color: white;    /* Set background to white */
+    color: black;               /* Text color */
+    font-size: 1.5rem;          /* Increase font size */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    border: 2px solid black;    /* Add a border for better visibility */
+    border-radius: 10px;        /* Round the corners */
+    cursor: pointer;            /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    width: 70%;
+}
+
+.checkout-button:hover {
+    background-color: var(--fire-brick); /* Change background color on hover */
+    transform: scale(1.05);               /* Slightly enlarge button on hover */
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 7%;
+}
+
+.materiale-vaskeanvisninger-container p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+
+.shipping p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
 /* styling right area 👆 */
 /* 
 
