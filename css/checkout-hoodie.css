@@ -156,6 +156,9 @@ header nav {
     border-radius: 10px;
 }
 
-.brown{
-    max-width: 30%;
+.havy{
+   display: flex;
+   align-items: center;
+   width: 30%;
+   color: brown;
 }
