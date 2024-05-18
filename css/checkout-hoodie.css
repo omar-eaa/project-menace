@@ -185,13 +185,13 @@ header nav {
 
 .name-prise-moms-container h1{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
 }
 
 .name-prise-moms-container h2{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(67, 66, 66);
     font-weight: 400;
 }
@@ -212,7 +212,7 @@ header nav {
 
 .color-options-container h2{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: rgb(67, 66, 66);
  
 }
@@ -222,18 +222,18 @@ header nav {
     gap: 4px;
 }
 .color-box1{
-    width: 40px; 
-    height: 35px; 
+    width: 23px;
+    height: 20px;
     background-color: gold; 
 }
 .color-box2{
-    width: 40px; 
-    height: 35px;  
+    width: 23px;
+    height: 20px; 
     background-color:gray; 
 }
 .color-box3{
-    width: 40px; 
-    height: 35px; 
+    width: 23px;
+    height: 20px;
     background-color: green; 
 }
 
@@ -253,15 +253,15 @@ header nav {
 .size-container h2 {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: rgb(67, 66, 66);
 }
 
 .size-s, .size-m, .size-l, .size-xl, .size-xxl {
     background-color: black;
     color: white;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 17px;
     border-radius: 50%;
     display: flex;
     justify-content: center;  /* Horizontally center the content */
@@ -280,31 +280,34 @@ header nav {
 }
 .checkout-button {
     display: inline-block;
-    padding: 5px 15px;          /* Increase padding for a bigger button */
+    padding: 5px 15px;          /* Reduced padding for a smaller button */
     background-color: white;    /* Set background to white */
     color: black;               /* Text color */
-    font-size: 1.5rem;          /* Increase font size */
+    font-size: 1rem;            /* Reduced font size */
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    border: 2px solid black;    /* Add a border for better visibility */
-    border-radius: 10px;        /* Round the corners */
-    cursor: pointer;            /* Change cursor to pointer on hover */
+    border: 2px solid black;    /* Border for better visibility */
+    border-radius: 10px;        /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-    width: 70%;
+    width: 50%;                 /* Adjust width */
 }
 
 .checkout-button:hover {
     background-color: var(--fire-brick); /* Change background color on hover */
-    transform: scale(1.05);               /* Slightly enlarge button on hover */
+    transform: scale(1.05);              /* Slightly enlarge button on hover */
 }
 
 .total-amount {
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;          /* Adjusted font size */
 }
 
 
-
+.pay-method-img{
+    height: auto;
+    width: 70%;
+}
 
 .info-container{
     display: flex;
@@ -343,6 +346,15 @@ header nav {
     background-color: black;
     border-radius: 10px;
    
+}
+
+
+.m-t-teskt{
+
+}
+
+.shopping-teskt{
+    
 }
 /* styling right area 👆 */
 /* 
