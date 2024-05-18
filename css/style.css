@@ -517,7 +517,7 @@ header nav {
 }
 .footer-tekst-container{
     display: flex;
-    gap: 10%;
+    gap: 25%;
     justify-content: center;
 }
 .line-black{
@@ -550,11 +550,12 @@ header nav {
 .support-container li,
 .juridiske-info-container li {
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 30px;
+    font-size: 15px;
     list-style: none;
     padding-top: 10%;
     color: #989595;
     cursor: pointer;
+    gap: 10ox;
 }
 
 
@@ -570,6 +571,8 @@ header nav {
     display: flex;
     gap: 2%;
     padding-left: 13%;
+    height: auto;
+    width: 150%;
 }
 
 
