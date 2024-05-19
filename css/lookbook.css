@@ -213,3 +213,88 @@ header nav {
     width: 100%; /* Ensure each image takes the full width */
   }
 }
+
+
+
+
+/* footer area 👇 */
+
+/* Common styling for the footer */
+.footer-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 10%;
+}
+
+.footer-tekst-container {
+  display: flex;
+  gap: 25%;
+  justify-content: center;
+}
+
+.line-black {
+  height: auto;
+  width: 90%;
+  padding-left: 10%;
+}
+
+/* Styling for text elements */
+.brand-container p,
+.support-container p,
+.juridiske-info-container p {
+  font-family: "fractul-variable", sans-serif;
+  font-variation-settings: 'wght' 400;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Styling for list items */
+.brand-container li,
+.support-container li,
+.juridiske-info-container li {
+  font-family: "fractul-variable", sans-serif;
+  font-variation-settings: 'wght' 400;
+  font-size: 15px;
+  list-style: none;
+  padding-top: 10px;
+  color: #989595;
+  cursor: pointer;
+}
+
+/* Hover effect for list items */
+.brand-container li:hover,
+.support-container li:hover,
+.juridiske-info-container li:hover {
+  color: #000000;
+}
+
+/* Styling for social icons */
+.icons-container {
+  display: flex;
+  gap: 2%;
+  padding-left: 13%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer-area {
+    padding-bottom: 5%; /* Reduce the bottom padding for smaller screens */
+  }
+  
+  .footer-tekst-container {
+    flex-direction: column; /* Stack text containers vertically on smaller screens */
+    gap: 2rem; /* Reduce the gap between text containers */
+  }
+
+  .line-black {
+    width: 100%; /* Make the line full width on smaller screens */
+    padding-left: 0; /* Remove left padding on smaller screens */
+  }
+
+  .icons-container {
+    padding-left: 0; /* Remove left padding for social icons on smaller screens */
+    justify-content: center; /* Center align social icons on smaller screens */
+  }
+}
