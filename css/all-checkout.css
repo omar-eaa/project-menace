@@ -1,35 +1,36 @@
 .info-box1-container{
     display: flex;
     padding-top: 4%;
-    width: 40%;
+    width: 90%;
 
 
 }
 .info-box2-container{
     display: flex;
     padding-top: 4%;
-    width: 40%;
+    width: 90%;
 
 }
 
 .info-box1-container ul{
     font-weight: bold;
     font-size: 1.5rem;
-    
+    padding-left: 10%;
 }
 .info-box1-container ul li{
-    font-weight: 100;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 70%;
     padding-top: 8%;
+   
 }
 
 .info-box2-container ul{
     font-weight: bold;
     font-size: 1.5rem;
-    
+    padding-left: 10%;
 }
 .info-box2-container ul li{
-    font-weight: 100;
+    font-weight: 400;
     font-size: 1rem;
     padding-top: 8%;
 }
