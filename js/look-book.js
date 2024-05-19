@@ -36,3 +36,13 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
 });
+
+
+
+function goToNextPage(pageNumber) {
+  const nextPage = document.getElementById(`page-${pageNumber}`);
+  if (nextPage) {
+    nextPage.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+

@@ -174,5 +174,175 @@ header nav {
 /* styling drop down 👆 */
 
 
+/*styling of the lookbook*/
+/* CSS for the lookbook */
+.lookbook-section {
+  position: relative; /* Set position to relative */
+}
+
+.lookbook-title {
+  text-align: center;
+  font-family: "Fractul Variable", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px; /* Add margin bottom to create space between title and images */
+  margin-top: 30px; /* Add margin top to create space between text and images */
+}
+
+.quote {
+  text-align: center; /* Center the text */
+  font-style: italic; /* Italicize the text */
+  margin-top: 10px; /* Add space between the title and the quote */
+  margin-bottom: 40px;
+}
+
+.lookbook {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add margin to create space between images and text */
+}
+
+.lookbook-item {
+  position: relative; /* Set position to relative */
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.lookbook-item img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.lookbook-item:hover {
+  transform: scale(1.05);
+}
+
+.indicator {
+  position: absolute; /* Set position to absolute */
+  bottom: 10px; /* Adjust position from bottom */
+  left: 50%; /* Align horizontally to center */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  padding: 5px 10px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 0.8rem; /* Adjust font size */
+}
 
 
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 844px) {
+  .lookbook {
+    flex-direction: column; /* Change flex direction to stack images vertically */
+  }
+  
+  .lookbook-item {
+    flex: none; /* Prevent images from stretching */
+    width: 100%; /* Ensure each image takes the full width */
+  }
+}
+
+@media (max-width: 768px) {
+  .lookbook-title {
+    font-size: 1.5rem;
+    margin-top: 20px; /* Adjust margin top for smaller screens */
+  }
+
+  .quote {
+    margin-bottom: 30px; /* Adjust margin bottom for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .lookbook-title {
+    font-size: 1.2rem;
+    margin-top: 10px; /* Further adjust margin top for smaller screens */
+  }
+
+  .quote {
+    margin-bottom: 20px; /* Further adjust margin bottom for smaller screens */
+  }
+}
+
+
+/* styling of footer area 👇 */
+
+/* Common styling for the footer */
+.footer-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 10%;
+}
+
+.footer-tekst-container {
+  display: flex;
+  gap: 25%;
+  justify-content: center;
+}
+
+.line-black {
+  height: auto;
+  width: 90%;
+  padding-left: 10%;
+}
+
+/* Styling for text elements */
+.brand-container p,
+.support-container p,
+.juridiske-info-container p {
+  font-family: "fractul-variable", sans-serif;
+  font-variation-settings: 'wght' 400;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Styling for list items */
+.brand-container li,
+.support-container li,
+.juridiske-info-container li {
+  font-family: "fractul-variable", sans-serif;
+  font-variation-settings: 'wght' 400;
+  font-size: 15px;
+  list-style: none;
+  padding-top: 10px;
+  color: #989595;
+  cursor: pointer;
+}
+
+/* Hover effect for list items */
+.brand-container li:hover,
+.support-container li:hover,
+.juridiske-info-container li:hover {
+  color: #000000;
+}
+
+/* Styling for social icons */
+.icons-container {
+  display: flex;
+  gap: 2%;
+  padding-left: 13%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer-area {
+    padding-bottom: 5%; /* Reduce the bottom padding for smaller screens */
+  }
+  
+  .footer-tekst-container {
+    flex-direction: column; /* Stack text containers vertically on smaller screens */
+    gap: 2rem; /* Reduce the gap between text containers */
+  }
+
+  .line-black {
+    width: 100%; /* Make the line full width on smaller screens */
+    padding-left: 0; /* Remove left padding on smaller screens */
+  }
+
+  .icons-container {
+    padding-left: 0; /* Remove left padding for social icons on smaller screens */
+    justify-content: center; /* Center align social icons on smaller screens */
+  }
+}
