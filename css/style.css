@@ -13,7 +13,11 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     --special-grey: rgb(232, 232, 232);
 }
 
-body {}
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
 
 header {
     background-color: white;
@@ -61,12 +65,21 @@ header nav {
 /* styling drop down 👇 */
 
 /* shop👇 */
+
+.all-clothing__accessories-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    list-style: none;
+    padding-top: 3%;
+}
 .shop-nav-container {
     display: flex;
-    align-items: stretch; /* Make items stretch vertically */
+    /* align-items: stretch;  */
     gap: 70%;
     padding-left: 5%;
     padding-bottom: 5%;
+    background-color: #e4e2e2;
 }
 
 .shop-left-area{
@@ -115,6 +128,22 @@ header nav {
 
 .accessories-li{
     padding-top: 5%;
+    
+}
+.accessories-li li{
+    list-style: none;
+    padding-top: 6%;
+}
+
+.all-clothing__accessories-container li{
+    color: grey;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+.all-clothing__accessories-container li:hover{
+    color: black;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
 }
 
 
@@ -230,7 +259,7 @@ header nav {
     padding-top: 5%;
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     font-size: 3.5rem;
-    font-weight: 100;
+    font-weight: 700;
 }
 
 
@@ -479,7 +508,7 @@ header nav {
     padding-bottom: 5%;
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     font-size: 3.5rem;
-    font-weight: 100;
+    font-weight: 700;
     margin-top: -10%
 }
 
@@ -622,15 +651,18 @@ header nav {
 }
 
 .email-container h2 {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     font-size: 3rem;
     /* Adjust heading font size */
     margin-bottom: 10px;
     color: var(--fire-brick);
     /* Add some space below the heading */
     margin-top: -10%;
+
 }
 
 .email-container p {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     font-size: 2rem;
     /* Adjust paragraph font size */
     margin-bottom: 20px;
