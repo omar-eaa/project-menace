@@ -38,6 +38,11 @@ omOsNavContainer.addEventListener("mouseleave", () => {
 });
 
 
-function scrollToSection(sectionId) {
-  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+
+function goToNextPage(pageNumber) {
+  const nextPage = document.getElementById(`page-${pageNumber}`);
+  if (nextPage) {
+    nextPage.scrollIntoView({ behavior: 'smooth' });
+  }
 }
+

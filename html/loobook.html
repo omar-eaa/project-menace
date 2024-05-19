@@ -69,25 +69,80 @@
 
 <!--coding of the lookbook-->
 
-    <div class="lookbook-section" id="section-1">
-        <div class="lookbook-item">
-            <img src="/img/lookbook-image/1stlook.png" alt="Look 1" onclick="scrollToSection('section-2')">
-        </div>
+<div class="lookbook-section">
+  <div class="lookbook">
+    <div class="lookbook-item" onclick="goToNextPage(2)">
+      <img src="/img/lookbook-image/lookbook-mobil/1.png" alt="Look 1">
     </div>
-
-    <div class="lookbook-section" id="section-2">
-        <div class="lookbook-item">
-            <img src="/img/lookbook-image/2ndlook.png" alt="Look 2" onclick="scrollToSection('section-3')">
-        </div>
+    <div class="lookbook-item" onclick="goToNextPage(2)">
+      <img src="/img/lookbook-image/lookbook-mobil/2.png" alt="Look 2">
     </div>
+  </div>
+</div>
 
-    <div class="lookbook-section" id="section-3">
-        <div class="lookbook-item">
-            <img src="/img/lookbook-image/3rdlook.png" alt="Look 3" onclick="scrollToSection('section-')">
-        </div>
+
+<div class="lookbook-section" id="page-2">
+  <div class="lookbook">
+    <div class="lookbook-item" onclick="goToNextPage(3)">
+      <img src="/img/lookbook-image/lookbook-mobil/3.png" alt="Look 3">
     </div>
+    <div class="lookbook-item" onclick="goToNextPage(3)">
+      <img src="/img/lookbook-image/lookbook-mobil/4.png" alt="Look 4">
+    </div>
+  </div>
+</div>
 
-    
+<!-- Page 3 -->
+<div class="lookbook-section" id="page-3">
+  <div class="lookbook">
+    <div class="lookbook-item" onclick="goToNextPage('footer')">
+      <img src="/img/lookbook-image/lookbook-mobil/5.png" alt="Look 5">
+    </div>
+    <div class="lookbook-item" onclick="goToNextPage('footer')">
+      <img src="/img/lookbook-image/lookbook-mobil/6.png" alt="Look 6">
+    </div>
+  </div>
+</div>
+
+   
+<!-- footer -->
+<footer class="footer-area">
+  <img class="line-black" src="/img/index-img/line.png" alt="black-line">
+  
+  <div class="footer-tekst-container">
+
+      <div class="brand-container">
+          <p>Brand</p>
+          <li>Shop</li>
+          <li>Shop</li>
+          <li>Look book</li>
+          <li>Coming soon </li>
+      </div>
+
+      <div class="support-container">
+          <p>Support</p>
+          <li>Returns & exchanges </li>
+          <li>FAQ</li>
+          <li>Kontakt</li>
+          <li>Adresse: Loremipsumvej </li>
+      </div>
+
+      <div class="juridiske-info-container">
+          <p>Juridiske Info</p>
+          <li>Privatlivs-politik</li>
+          <li>Vilkår & betingelser</li>
+      </div>
+  </div>
+
+  <div class="icons-container">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-tiktok"></i>
+      <i class="fa-brands fa-square-instagram"></i>
+  </div>
+
+</footer>
+
 
     <script src="/js/look-book.js"></script>
 </body>

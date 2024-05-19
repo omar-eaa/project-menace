@@ -176,15 +176,20 @@ header nav {
 
 /*styling of the lookbook*/
 
+/* Adjust the position of lookbook section below the nav bar */
 .lookbook-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: vh;
   padding-top: 60px; /* Adjust based on your nav height */
 }
 
+.lookbook {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
 .lookbook-item {
+  flex: 1;
   text-align: center;
   transition: transform 0.3s;
 }
@@ -195,3 +200,16 @@ header nav {
   cursor: pointer;
 }
 
+
+
+/* For screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 844px) {
+  .lookbook {
+    flex-direction: column; /* Change flex direction to stack images vertically */
+  }
+  
+  .lookbook-item {
+    flex: none; /* Prevent images from stretching */
+    width: 100%; /* Ensure each image takes the full width */
+  }
+}
