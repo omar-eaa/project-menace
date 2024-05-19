@@ -174,5 +174,29 @@ header nav {
 /* styling drop down 👆 */
 
 
+/*styling of the lookbook*/
+
+.lookbook-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 60px; /* Adjust based on your nav height */
+}
+
+.lookbook-item {
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.lookbook-item img {
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+}
+
+.lookbook-item:hover {
+  transform: scale(1.05);
+}
 
 
