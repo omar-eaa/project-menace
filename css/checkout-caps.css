@@ -1,0 +1,475 @@
+/* titel font here 👇 
+font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fire-brick: rgb(167, 61, 40);
+    --special-grey: rgb(232, 232, 232);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    /* Center the content horizontally */
+    padding: 20px;
+    /* Add some padding for spacing */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute items evenly */
+    align-items: center;
+    /* Center items vertically */
+}
+
+.left-nav ul {
+    display: flex;
+    /* Remove default list styles */
+    list-style: none;
+}
+
+.left-nav ul li {
+    /* Optional: Add some spacing between list items */
+    padding-right: 24px;
+    font-size: 1rem;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 200;
+    font-weight: 600;
+}
+
+.mid-nav h1 {
+    font-size: 2rem;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    padding-right: 300px;
+}
+
+.right-nav i {
+    font-size: 2.5rem;
+}
+
+
+/* styling drop down 👇 */
+
+/* shop👇 */
+
+.all-clothing__accessories-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    list-style: none;
+    padding-top: 3%;
+}
+.shop-nav-container {
+    display: flex;
+    /* align-items: stretch;  */
+    gap: 70%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    background-color: #e4e2e2;
+}
+
+.shop-left-area{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.shop-right-area{
+    margin-left: 10%;
+}
+
+.all-clothing{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
+    
+}
+.all-clothing-li{
+    padding-top: 5%;
+    
+}
+
+.shop-left-area {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    flex: 1; /* Allow flex-grow to fill the available space */
+}
+.shop-left-area ul li {
+    list-style: none;
+    padding-top: 10%;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+}
+
+.shop-right-area{
+    padding-top: 3%;
+    padding-right: 16%;
+}
+
+
+.accessories{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
+}
+
+.accessories-li{
+    padding-top: 5%;
+    
+}
+.accessories-li li{
+    list-style: none;
+    padding-top: 6%;
+}
+
+.all-clothing__accessories-container li{
+    color: grey;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+.all-clothing__accessories-container li:hover{
+    color: black;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
+
+
+/* om os 👇 */
+.om-os-nav-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+.om-os-nav-area{
+    display: flex;
+    gap: 20%;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-left: 35%;
+}
+
+
+.bæredygtighed{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+.vision-mission-vædier {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+/* styling drop down 👆 */
+
+
+
+
+
+
+/* styling left area 👇 */
+.hoodie-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+.left-area{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.right-area{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.big-img-hoodie{
+    height: auto;
+    width: 60vh;
+}
+.small-img-hoodie{
+    height: auto;
+    width: 20vh;
+}
+
+.small-img-hoodie-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling right area 👇 */
+.name-prise-moms-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-prise-moms-container h1{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    color: black;
+}
+
+.name-prise-moms-container h2{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+}
+.name-prise-moms-container span{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+}
+
+
+
+.color-options-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.color-options-container h2{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+ 
+}
+.color-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.color-box1{
+    width: 23px;
+    height: 20px;
+    background-color: gold; 
+}
+.color-box2{
+    width: 23px;
+    height: 20px; 
+    background-color:gray; 
+}
+.color-box3{
+    width: 23px;
+    height: 20px;
+    background-color: green; 
+}
+
+
+.size-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.s-m-l-x-xxl-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.size-container h2 {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+}
+
+.size-s, .size-m, .size-l, .size-xl, .size-xxl {
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1rem;          /* Adjust font size if necessary */
+}
+
+
+
+.pay-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.checkout-button {
+    display: inline-block;
+    padding: 5px 15px;          /* Reduced padding for a smaller button */
+    background-color: white;    /* Set background to white */
+    color: black;               /* Text color */
+    font-size: 1rem;            /* Reduced font size */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    border: 2px solid black;    /* Border for better visibility */
+    border-radius: 10px;        /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    width: 50%;                 /* Adjust width */
+}
+
+.checkout-button:hover {
+    background-color: var(--fire-brick); /* Change background color on hover */
+    transform: scale(1.05);              /* Slightly enlarge button on hover */
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 1rem;          /* Adjusted font size */
+}
+
+
+.pay-method-img{
+    height: auto;
+    width: 70%;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 7%;
+}
+
+.materiale-vaskeanvisninger-container p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+
+.shipping p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer area 👇 */
+
+.footer-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 10%;
+}
+.footer-tekst-container{
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+}
+.line-black{
+  height: auto;
+   width: 90%;
+   padding-left: 10%;
+}
+
+
+.brand-container p{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 18%;
+    cursor: pointer;
+}
+.support-container p{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+.juridiske-info-container p {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    padding-bottom: 6%;
+    cursor: pointer;
+
+}
+.brand-container li, 
+.support-container li,
+.juridiske-info-container li {
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 15px;
+    list-style: none;
+    padding-top: 10%;
+    color: #989595;
+    cursor: pointer;
+    gap: 10ox;
+}
+
+
+.brand-container li:hover,
+.support-container li:hover,
+.juridiske-info-container li:hover {
+    /* Change text color on hover */
+    color: #000000;
+    /* Add any other styles you want to apply on hover */
+}
+
+.icons-container{
+    display: flex;
+    gap: 2%;
+    padding-left: 13%;
+    height: auto;
+    width: 150%;
+}
+
+
+
+
+/* footer area 👆 */
