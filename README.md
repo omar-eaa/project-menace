@@ -16,6 +16,7 @@ Eksamens projekt
 <!-- make cap.html page done ✅-->
 <!--* make chekout page to all 6 product  ❌ -->
 <!-- make link work on all pages❌ -->
+<!-- check for white space on the right side ❌ -->
 
 ✅
 ❌
