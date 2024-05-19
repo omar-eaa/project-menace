@@ -8,7 +8,8 @@ Eksamens projekt
 
   <!--kl:22:30👇  -->
 
-<!-- * header make better/fix and clone it to all pages ❌ -->
+<!-- * header make better/fix and clone it to all pages ✅ -->
+<!-- footer need to be on all pages ❌  -->
 <!-- make all pages have nice font and spacing ❌ -->
 <!-- change index.html bestsellers img so it looks the samme on each img -->
 <!-- make cap.html page done ❌-->
