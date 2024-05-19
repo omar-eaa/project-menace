@@ -37,6 +37,12 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   omOsNavContainer.style.display = "none";
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const homePage = document.getElementById("homePage");
+  homePage.addEventListener("click", function () {
+    window.location.href = "../index.html";
+  });
+});
 
 
 function goToNextPage(pageNumber) {

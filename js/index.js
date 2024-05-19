@@ -127,3 +127,11 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "../html/sweatshirts.html";
   });
 });
+
+// link to lookbook
+document.addEventListener("DOMContentLoaded", function () {
+  const lookBook = document.getElementById("lookBook");
+  lookBook.addEventListener("click", function () {
+    window.location.href = "";
+  });
+});
