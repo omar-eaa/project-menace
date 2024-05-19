@@ -57,95 +57,136 @@ header nav {
     font-size: 2rem;
 }
 
-
 /* styling drop down 👇 */
 
+/* shop👇 */
+
+.all-clothing__accessories-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    list-style: none;
+    padding-top: 3%;
+    z-index: 10; /* Ensure it's above other elements */
+    position: relative; /* Set position relative for z-index to work */
+}
 
 .shop-nav-container {
     display: flex;
-    align-items: stretch; /* Make items stretch vertically */
-    gap: 20%;
-    padding-left: 20%;
+    /* align-items: stretch;  */
+    gap: 70%;
+    padding-left: 5%;
     padding-bottom: 5%;
-    position: absolute;
-}
-
-.shop-left-area{
-    display: flex;
-    flex-direction: column;
-    padding-top: 5%;
-}
-.all-clothing{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-weight: bold;  
-    
-}
-.all-clothing-li{
-    padding-top: 5%;
-    
+    background-color: #e4e2e2;
 }
 
 .shop-left-area {
     display: flex;
     flex-direction: column;
     padding-top: 5%;
+    padding-left: 3%;
+}
+
+.shop-right-area {
+    margin-left: 10%;
+}
+
+.all-clothing {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+
+.all-clothing-li {
+    padding-top: 5%;
+}
+
+.shop-left-area {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
     flex: 1; /* Allow flex-grow to fill the available space */
 }
+
 .shop-left-area ul li {
     list-style: none;
     padding-top: 10%;
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-}
-.accessories{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-weight: bold;  
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
 }
 
-.accessories-li{
+.shop-right-area {
+    padding-top: 3%;
+    padding-right: 16%;
+}
+
+.accessories {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-weight: bold;
+}
+
+.accessories-li {
     padding-top: 5%;
-
 }
 
-/* styling drop down 👆 */
+.accessories-li li {
+    list-style: none;
+    padding-top: 6%;
+}
 
+.all-clothing__accessories-container li {
+    color: grey;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
 
+.all-clothing__accessories-container li:hover {
+    color: black;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+}
 
 /* om os 👇 */
-.om-os-nav-container{
+
+.om-os-nav-container {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    
+    background-color: #e4e2e2;
 }
-.om-os-nav-area{
+
+.om-os-nav-area {
     display: flex;
     gap: 20%;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
     font-weight: bold;
     padding-top: 5%;
-    padding-left: 39%;
+    padding-left: 35%;
 }
 
-
-.bæredygtighed{
+.bæredygtighed {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
     font-weight: bold;
 }
+
 .vision-mission-vædier {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
     font-weight: bold;
 }
+
+/* styling drop down 👆 */
 /* om-os færdig */
 
-#bear{
+#bear {
     width: 100%;
     height: 100vh;
 }
 
-.bear1{
+.bear1 {
     width: 100%;
 }
 
@@ -153,22 +194,22 @@ header nav {
     position: absolute;
     top: 32%;
     width: 700px; /* Adjust size as needed */
-    height: 250px; /* Same as width to make it a square */
+    height: 250px;
     text-align: center; /* Center align the text */
     line-height: 200px; /* Center vertically */
-    border: 5px solid  #ffffff;;
+    border: 5px solid #ffffff;
     left: 25%;
+    z-index: 1; /* Ensure it's below the dropdown */
 }
 
-
-.square p{
+.square p {
     font-size: 60px;
     font-weight: 900;
     margin-top: 10px;
     color: #ffffff;
 }
 
-.icon-container{
+.icon-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -177,7 +218,7 @@ header nav {
     gap: 10rem;
 }
 
-#stop{
+#stop {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -185,14 +226,4 @@ header nav {
     gap: 5rem;
     margin-top: -15%;
     font-size: 1.2rem;
-}
-
-
-
-@media screen {
-    .font-page-video{
-        width: 10%;
-        height: 10%;
-        object-fit: cover;
-    }
 }
