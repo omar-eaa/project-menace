@@ -176,16 +176,24 @@ header nav {
 
 /*styling of the lookbook*/
 
-/* Adjust the position of lookbook section below the nav bar */
-.lookbook-section {
-  padding-top: 60px; /* Adjust based on your nav height */
+
+.lookbook-title {
+  text-align: center;
+  font-family: "Fractul Variable", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px; /* Add margin bottom to create space between title and images */
 }
+
+.quote {
+  text-align: center; /* Center the text */
+  font-style: italic; /* Italicize the text */
+  margin-top: 10px; /* Add space between the title and the quote */
+}
+
 
 .lookbook {
   display: flex;
   justify-content: space-between;
-
-  
 }
 
 .lookbook-item {
@@ -200,6 +208,9 @@ header nav {
   cursor: pointer;
 }
 
+.lookbook-item:hover {
+  transform: scale(1.05);
+}
 
 
 /* For screens smaller than 768px (e.g., mobile devices) */
