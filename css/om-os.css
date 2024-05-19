@@ -179,6 +179,14 @@ header nav {
 
 
 /* om os 👇 */
+.omos-titel{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.5rem;
+     font-weight: 700;
+
+
+}
 .om-os-nav-container{
     display: flex;
     justify-content: center;

@@ -184,6 +184,14 @@ header nav {
 
 
 /* hoodie container styiling 👇  */
+.jeans-titel{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.5rem;
+     font-weight: 700;
+
+
+}
 .hoodies{
     text-align: center;
     margin-top: 5%;

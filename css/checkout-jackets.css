@@ -401,6 +401,7 @@ header nav {
     justify-content: center;
     flex-direction: column;
     gap: 5rem;
+    padding-top: 20%;
     padding-bottom: 10%;
 }
 .footer-tekst-container{
