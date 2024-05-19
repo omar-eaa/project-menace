@@ -15,7 +15,13 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 
 body {}
 
+.hoodie-titel{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.5rem;
+     font-weight: 700;
 
+}
 #homePage{
     cursor: pointer;
 }
