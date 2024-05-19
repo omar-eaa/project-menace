@@ -14,7 +14,7 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 }
 
 body {
-    position: fixed;
+   margin-bottom: 0%;
 }
 
 header {
