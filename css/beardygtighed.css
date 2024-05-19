@@ -186,3 +186,13 @@ header nav {
     margin-top: -15%;
     font-size: 1.2rem;
 }
+
+
+
+@media screen {
+    .font-page-video{
+        width: 10%;
+        height: 10%;
+        object-fit: cover;
+    }
+}
