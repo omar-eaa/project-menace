@@ -152,7 +152,7 @@ header nav {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    
+    background-color: #e4e2e2;
 }
 .om-os-nav-area{
     display: flex;
@@ -176,6 +176,9 @@ header nav {
     font-weight: bold;
 }
 /* styling drop down 👆 */
+
+
+
 
 
 
