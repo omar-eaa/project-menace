@@ -178,6 +178,223 @@ header nav {
 /* styling drop down 👆 */
 
 
+
+
+/* checkout */
+
+/* styling left area 👇 */
+.hoodie-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+.left-area{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.right-area{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.big-img-hoodie{
+    height: auto;
+    width: 60vh;
+}
+.small-img-hoodie{
+    height: auto;
+    width: 20vh;
+}
+
+.small-img-hoodie-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* styling right area 👇 */
+.name-prise-moms-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-prise-moms-container h1{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 2rem;
+    color: black;
+}
+
+.name-prise-moms-container h2{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+}
+.name-prise-moms-container span{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+}
+
+
+
+.color-options-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.color-options-container h2{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+ 
+}
+.color-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.color-box1{
+    width: 23px;
+    height: 20px;
+    background-color: gold; 
+}
+.color-box2{
+    width: 23px;
+    height: 20px; 
+    background-color:gray; 
+}
+.color-box3{
+    width: 23px;
+    height: 20px;
+    background-color: green; 
+}
+
+
+.size-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.s-m-l-x-xxl-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.size-container h2 {
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+}
+
+.size-s, .size-m, .size-l, .size-xl, .size-xxl {
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1rem;          /* Adjust font size if necessary */
+}
+
+
+
+.pay-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+}
+.checkout-button {
+    display: inline-block;
+    padding: 5px 15px;          /* Reduced padding for a smaller button */
+    background-color: white;    /* Set background to white */
+    color: black;               /* Text color */
+    font-size: 1rem;            /* Reduced font size */
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    border: 2px solid black;    /* Border for better visibility */
+    border-radius: 10px;        /* Rounded corners */
+    cursor: pointer;            /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    width: 50%;                 /* Adjust width */
+}
+
+.checkout-button:hover {
+    background-color: var(--fire-brick); /* Change background color on hover */
+    transform: scale(1.05);              /* Slightly enlarge button on hover */
+}
+
+.total-amount {
+    font-weight: bold;
+    font-size: 1rem;          /* Adjusted font size */
+}
+
+
+.pay-method-img{
+    height: auto;
+    width: 70%;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 7%;
+}
+
+.materiale-vaskeanvisninger-container p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+
+.shipping p{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+    color: rgb(67, 66, 66);
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.black-line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+
+/* checkout */
+
+
+
+
+
+
 /* footer area 👇 */
 
 .footer-area{
