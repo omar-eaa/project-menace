@@ -209,6 +209,12 @@ header nav {
 
 
 /* sweatshirt container styiling 👇  */
+.titel{
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 2.5rem;
+     font-weight: 700;
+}
 .sweatshirt{
     text-align: center;
     margin-top: 5%;

@@ -16,6 +16,7 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
     
 }
 
