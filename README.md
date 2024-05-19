@@ -10,6 +10,7 @@ Eksamens projekt
 
 <!-- * header make better/fix and clone it to all pages ❌ -->
 <!-- make all pages have nice font and spacing ❌ -->
+<!-- change index.html bestsellers img so it looks the samme on each img -->
 <!-- make cap.html page done ❌-->
 <!--* make chekout page to all 6 product  ❌ -->
 <!-- make link work on all pages❌ -->
