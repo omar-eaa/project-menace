@@ -36,3 +36,8 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
 });
+
+
+function scrollToSection(sectionId) {
+  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}

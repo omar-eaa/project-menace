@@ -180,7 +180,7 @@ header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: vh;
   padding-top: 60px; /* Adjust based on your nav height */
 }
 
@@ -190,13 +190,8 @@ header nav {
 }
 
 .lookbook-item img {
-  width: 80%;
+  width: 100%;
   height: auto;
   cursor: pointer;
 }
-
-.lookbook-item:hover {
-  transform: scale(1.05);
-}
-
 
