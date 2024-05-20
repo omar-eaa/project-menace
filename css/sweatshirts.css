@@ -26,12 +26,14 @@ header nav {
     /* Distribute items evenly */
     align-items: center;
     /* Center items vertically */
+    cursor: pointer;
 }
 
 .left-nav ul {
     display: flex;
     /* Remove default list styles */
     list-style: none;
+    cursor: pointer;
 }
 
 .left-nav ul li {
@@ -40,6 +42,7 @@ header nav {
     font-size: 1rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 200;
+    cursor: pointer;
 }
 
 .mid-nav h1 {
