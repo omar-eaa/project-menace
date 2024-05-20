@@ -16,7 +16,7 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 body {}
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     text-align: center;
     /* Center the content horizontally */
     padding: 20px;
@@ -29,7 +29,6 @@ header nav {
     /* Distribute items evenly */
     align-items: center;
     /* Center items vertically */
-    color: #ffffff;
 }
 
 .left-nav ul {
@@ -44,17 +43,18 @@ header nav {
     font-size: 1rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 200;
+    font-weight: 600;
 }
 
 .mid-nav h1 {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 
 .right-nav i {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
@@ -172,7 +172,6 @@ header nav {
     font-weight: bold;
 }
 /* styling drop down 👆 */
-
 
 
 
