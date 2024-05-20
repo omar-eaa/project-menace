@@ -3,9 +3,6 @@ const shopElement = document.getElementById("shop");
 
 const omOsElement = document.getElementById("omOs");
 
-// Get square box
-const square = document.getElementById("square");
-
 // Get the shop nav container
 const shopNavContainer = document.getElementById("shop-nav-container");
 // get the om os nav container
@@ -14,7 +11,6 @@ const omOsNavContainer = document.getElementById("om-os-nav-container");
 // hiding containers
 shopNavContainer.style.display = "none";
 omOsNavContainer.style.display = "none";
-square.style.display = "block";
 
 // Add event listener for mouseover event on shop element or nav container
 shopElement.addEventListener("mouseover", () => {
@@ -23,14 +19,10 @@ shopElement.addEventListener("mouseover", () => {
   shopNavContainer.style.display = "flex";
   // Hide the omOs nav container
   omOsNavContainer.style.display = "none";
-  // hide square
-  square.style.display = "none";
 });
 shopNavContainer.addEventListener("mouseleave", () => {
   // Hide the shop nav container
   shopNavContainer.style.display = "none";
-  // show square
-  square.style.display = "block";
 });
 
 // Add event listener for mouseover event on omOs element or om os nav container
