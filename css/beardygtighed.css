@@ -13,10 +13,15 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     --special-grey: rgb(232, 232, 232);
 }
 
-body {}
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    
+}
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     text-align: center;
     /* Center the content horizontally */
     padding: 20px;
@@ -29,7 +34,6 @@ header nav {
     /* Distribute items evenly */
     align-items: center;
     /* Center items vertically */
-    color: #000000;
 }
 
 .left-nav ul {
@@ -44,33 +48,32 @@ header nav {
     font-size: 1rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 200;
+    font-weight: 600;
 }
 
 .mid-nav h1 {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 
 .right-nav i {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
+
 
 /* styling drop down 👇 */
 
 /* shop👇 */
 
-.all-clothing__accessories-container {
+.all-clothing__accessories-container{
     display: flex;
     flex-direction: row;
     gap: 20%;
     list-style: none;
     padding-top: 3%;
-    z-index: 10; /* Ensure it's above other elements */
-    position: relative; /* Set position relative for z-index to work */
 }
-
 .shop-nav-container {
     display: flex;
     /* align-items: stretch;  */
@@ -80,25 +83,25 @@ header nav {
     background-color: #e4e2e2;
 }
 
-.shop-left-area {
+.shop-left-area{
     display: flex;
     flex-direction: column;
     padding-top: 5%;
     padding-left: 3%;
 }
 
-.shop-right-area {
+.shop-right-area{
     margin-left: 10%;
 }
 
-.all-clothing {
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-weight: bold;
+.all-clothing{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
+    
 }
-
-.all-clothing-li {
+.all-clothing-li{
     padding-top: 5%;
+    
 }
 
 .shop-left-area {
@@ -107,56 +110,52 @@ header nav {
     padding-top: 3%;
     flex: 1; /* Allow flex-grow to fill the available space */
 }
-
 .shop-left-area ul li {
     list-style: none;
     padding-top: 10%;
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 }
 
-.shop-right-area {
+.shop-right-area{
     padding-top: 3%;
     padding-right: 16%;
 }
 
-.accessories {
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-weight: bold;
+
+.accessories{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-weight: bold;  
 }
 
-.accessories-li {
+.accessories-li{
     padding-top: 5%;
+    
 }
-
-.accessories-li li {
+.accessories-li li{
     list-style: none;
     padding-top: 6%;
 }
 
-.all-clothing__accessories-container li {
+.all-clothing__accessories-container li{
     color: grey;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
 }
-
-.all-clothing__accessories-container li:hover {
+.all-clothing__accessories-container li:hover{
     color: black;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
 }
 
-/* om os 👇 */
 
-.om-os-nav-container {
+/* om os 👇 */
+.om-os-nav-container{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
     background-color: #e4e2e2;
 }
-
-.om-os-nav-area {
+.om-os-nav-area{
     display: flex;
     gap: 20%;
     font-family: "fractul-variable", sans-serif;
@@ -166,19 +165,20 @@ header nav {
     padding-left: 35%;
 }
 
-.bæredygtighed {
+
+.bæredygtighed{
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
     font-weight: bold;
 }
-
 .vision-mission-vædier {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
     font-weight: bold;
 }
-
 /* styling drop down 👆 */
+
+
 /* om-os færdig */
 
 #bear {
