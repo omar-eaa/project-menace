@@ -32,12 +32,14 @@ header nav {
     align-items: center;
     /* Center items vertically */
     color: #000000;
+   
 }
 
 .left-nav ul {
     display: flex;
     /* Remove default list styles */
     list-style: none;
+   
 }
 
 .left-nav ul li {
