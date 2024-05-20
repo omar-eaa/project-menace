@@ -33,6 +33,7 @@ header nav {
     /* Distribute items evenly */
     align-items: center;
     /* Center items vertically */
+    cursor: pointer;
 }
 
 .left-nav ul {
