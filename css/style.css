@@ -23,9 +23,10 @@ body {
 header {
     background-color: white;
     text-align: center;
-    /* Center the content horizontally */
+    position: sticky; /* Make header sticky */
     padding: 20px;
-    /* Add some padding for spacing */
+    top: 0;
+    z-index: 1000; /* Ensure header stays above other content */
 }
 
 header nav {
@@ -789,3 +790,339 @@ header nav {
     background-color: #555;
   }
 
+
+
+
+
+
+
+
+
+/* hiding mobile nav */
+  aside {
+    display: none;
+}
+.sidebar {
+    display: none;
+}
+.video-section-mobile{
+    display: none;
+}
+
+
+/* for iphone 12 pro  */
+@media (max-width: 768px) {
+
+
+    /* hiding header destop nav */
+    header{
+        display: none;
+    }
+        
+
+        /* hide front page video  */
+        .video-section{
+            display: none;
+        }
+
+        
+        /* show fron page img  */
+        .video-section-mobile{
+            display: block;
+        }
+
+
+    aside {
+    display: block;
+      top: 0;
+    
+    }
+ 
+    .sidebar {
+         display: block;
+        position: sticky; 
+    }
+   
+    .logo-mobile{
+        display: flex;
+        width: 97%;
+        padding-left: 30%;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+       
+    }
+
+    aside {
+        width: 100%;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .burger-menu {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .burger-icon {
+        display: inline-block;
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .burger-icon::before,
+    .burger-icon::after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+    }
+
+    .burger-icon::before {
+        top: -8px;
+    }
+
+    .burger-icon::after {
+        top: 8px;
+    }
+
+    .mid-nav h1 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .right-nav i {
+        font-size: 1.5em;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1;
+    }
+
+    .sidebar .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 36px;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .sidebar-menu {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar-menu li {
+        padding: 8px 16px;
+    }
+
+    .sidebar-menu li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar-menu li a:hover {
+        color: #f1f1f1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* front page  */
+
+    .font-page-video-mobile {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .front-page-btn-h2-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center items horizontally */
+        gap: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .btn-mobile{
+        background-color: transparent;
+        color: #ffffff;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: 2px solid #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .btn:hover-mobile {
+        background-color: #ffffff;
+        color: #000000;
+    }
+    
+    .front-page-h1{
+        padding-left: 6%;
+    }
+    .bestseller-titel {
+        font-size: 2.5rem;
+
+    }
+    .product-front-page {
+        padding-left: 15%;
+    }
+    .instagram-titel {
+        font-size: 2.5rem;
+    }
+    .foglos{
+        display: flex;
+    width: 62%;
+    font-weight: 580;
+    font-size: 17px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 4%;
+    margin-top: 0%;
+    line-height: 1.6;
+    font-family: "fractul-variable", sans-serif;
+    font-variation-settings: 'wght' 400;
+    }
+
+    .instagram-post-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ig-img{
+        height: auto;
+        width: 100%;
+    }
+    .menace {
+        height: auto;
+        width: 100%;
+        margin-top: 33%;
+    }
+    .email-container p{
+        font-size: 20px;
+    }
+    .email-container h2{
+        margin-top: -9%;
+    }
+    .input-area{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 0%;
+    }
+    .email-container input[type="text"]{
+        width: 100%;
+    }
+    .email-container input[type="submit"]{
+        background-color: white;
+    color: var(--fire-brick);
+    border: 2px solid black;
+    padding: 5px 50px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 58%;
+    margin-left: 20%;
+    margin-top: -6%;
+    }
+
+
+    .thank-you-message-container {
+        background: #000000;
+        height: 400px; /* Adjust height as needed */
+        width: 90%;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        flex-direction: column; /* Stack items vertically */
+        margin: 0 auto; /* Center the container horizontally */
+        margin-top: 20%;
+        margin-bottom: 20%;
+    
+    }
+    .thank-you-message-container h2 {
+        color: var(--fire-brick);
+        font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+        font-size: 1.5rem;
+        padding-bottom: 4%;
+    }
+    
+    .thank-you-message-container p {
+        color: #fff;
+        font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+        font-size: 15px;
+    }
+    .footer-area {
+        padding-top: 26%;
+    }
+    .footer-tekst-container{
+        flex-direction: column;
+    margin-left: 34%;
+    margin-bottom: 37%;
+    }
+    .support-container{
+        padding-top: 25%;
+    }
+    .juridiske-info-container{
+        padding-top: 25%;
+    }
+    .icons-container {
+        margin-top: -122px;
+    margin-bottom: 31%;
+    }
+   
+}

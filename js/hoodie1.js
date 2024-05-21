@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   color3.addEventListener("click", function () {
-    changeBigImage("/img/hoodies-img/Hoodie (Black Black Patched).jpg");
+    changeBigImage("/img/hoodies-img/Hoodie(Black Black Patched).jpg");
   });
 
   color4.addEventListener("click", function () {

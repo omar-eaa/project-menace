@@ -23,9 +23,14 @@ body {
 header {
     background-color: white;
     text-align: center;
-    /* Center the content horizontally */
+    position: sticky; /* Make header sticky */
     padding: 20px;
-    /* Add some padding for spacing */
+    top: 0;
+    z-index: 1000; /* Ensure header stays above other content */
+}
+.logo{
+    display: flex;
+    width: 35%;
 }
 
 header nav {
@@ -334,8 +339,6 @@ header nav {
 .right-area{
     display: flex;
     flex-direction: column;
-  
-    
 }
 .big-img-hoodie{
     height: auto;
@@ -503,6 +506,14 @@ header nav {
     gap: 2rem;
     padding-top: 20%;
 }
+.tekst-icon-container-1{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .tekst-icon-container-1 i{
+    font-size: 2rem;
+  }
 .tekst-icon-container{
     display: flex;
     gap: 2rem;
@@ -641,3 +652,290 @@ header nav {
 
 
 /* footer area 👆 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hiding mobile nav */
+aside {
+    display: none;
+}
+.sidebar {
+    display: none;
+}
+
+/* for iphone 12 pro  */
+@media (max-width: 768px) {
+
+
+
+    /* hiding header destop nav */
+    header{
+       display: none;
+   }
+       
+   
+      
+   
+       
+   
+   
+   
+   aside {
+    display: block;
+      top: 0;
+    
+    }
+ 
+    .sidebar {
+         display: block;
+        position: sticky; 
+    }
+   
+    .logo-mobile{
+        display: flex;
+        width: 97%;
+        padding-left: 30%;
+    }
+    .logo {
+      display: flex;
+    width: 35%;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+       
+    }
+
+    aside {
+        width: 100%;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .burger-menu {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .burger-icon {
+        display: inline-block;
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+    }
+
+    .burger-icon::before,
+    .burger-icon::after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+    }
+
+    .burger-icon::before {
+        top: -8px;
+    }
+
+    .burger-icon::after {
+        top: 8px;
+    }
+
+    .mid-nav h1 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .right-nav i {
+        font-size: 1.5em;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1;
+    }
+
+    .sidebar .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-size: 36px;
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .sidebar-menu {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar-menu li {
+        padding: 8px 16px;
+    }
+
+    .sidebar-menu li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar-menu li a:hover {
+        color: #f1f1f1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* checkout hoodie styling  */
+
+
+   .left-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 6px solid #d9d9d9;
+    margin-top: 10%;
+    margin-right: 1%;
+    margin-bottom: 0% ;
+}
+.right-area{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+.small-img-hoodie-container{
+    display: flex;
+    flex-direction: row;
+}
+.big-img-hoodie{
+    width: 35vh;
+}
+.small-img-hoodie{
+    width: 11vh;
+}
+
+
+
+   .hoodie-container{
+    margin-top: 12%;
+    flex-direction: column;
+    gap: 2rem;
+
+   }
+  .info-container{
+    margin-top: 12%;
+  }
+
+  .black-line {
+    width: 88%;
+  }
+
+  .tekst-icon-container-1{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .tekst-icon-container-1 i{
+    font-size: 2rem;
+    padding-right: 20%;
+  }
+
+  .tekst-icon-container i{
+    font-size: 2rem;
+    padding-left: 12%;
+  }
+
+
+/* pop up */
+
+.checkout-pop-up-container{
+    margin-right: 60px;
+}
+
+
+
+
+/* footer */
+  .footer-area {
+    padding-top: 40%;
+}
+.footer-tekst-container{
+    flex-direction: column;
+margin-left: 34%;
+margin-bottom: 37%;
+}
+.support-container{
+    padding-top: 25%;
+}
+.juridiske-info-container{
+    padding-top: 25%;
+}
+.icons-container {
+    margin-top: -122px;
+margin-bottom: 31%;
+}
+
+
+}
+   

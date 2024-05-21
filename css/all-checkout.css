@@ -39,12 +39,16 @@
 
 .checkout-pop-up-container{
     position: absolute;
-    top: 3%;
+    top: 12%;
     left: 60%;
     background-color: white;
     border: 5px solid #000;
    padding-left: 4%;
 }
+/* .closeBtn{
+    font-size: 2rem;
+    font-weight: bold;
+} */
 .img-info-container{
     display: flex;
     flex-direction: row;
@@ -155,3 +159,19 @@
 
 
 /* styling pop up 👆 */
+
+
+/* for iphone 12 pro  */
+@media (max-width: 768px) {
+
+
+.checkout-pop-up-container{
+    
+        
+        top: 70%;
+        left: 2%;
+        
+    
+}
+
+}

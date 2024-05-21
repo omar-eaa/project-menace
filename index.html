@@ -68,9 +68,35 @@
         </div>
     </section>
 
+<!-- mobile header 📱👇 -->
+<aside>
+    <nav style="position: sticky;">
+      <div class="navbar-container">
+        <button class="burger-menu" id="burgerMenu">
+          <span class="burger-icon"></span>
+        </button>
+        <div class="logo-mobile">
+            <a href="index.html"><img src="img/logo-img/menace_logo_sort.png" alt="Project Menace Logo" class="logo"></a>
+        </div>
+        <div class="right-nav">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </nav>
+  </aside>
 
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" id="closeBttn">&times;</button>
+    <ul class="sidebar-menu">
+      <li><a href="/html/hoodies.html">Shop</a></li>
+      <li><a href="#">Om Os</a></li>
+      <li><a href="./html/lookbook.html">Look Book</a></li>
+      <li><a href="./html/comming-soon.html">Coming Soon</a></li>
+    </ul>
+  </div>
+<!-- mobile  header 📱👆 -->
     <!--front page video section  -->
-    <section class="video-section">
+    <section class="video-section" >
         <video autoplay muted loop class="font-page-video">
             <source src="/video/front-page-video.mp4" type="video/mp4">
         </video>
@@ -82,6 +108,19 @@
             </a>
         </div>  
     </section>
+<!-- front page mobile📱👇 -->
+    <section class="video-section-mobile" >
+            <img src="/img/index-img/hani-omar.png" alt="">
+        
+        <div class="front-page-btn-h2-mobile">
+            <h1 class="front-page-h1">Fear is a menace to society. Choose love.</h1>
+
+            <a href="html/hoodies.html">
+                <button class="btn-mobile">SHOP HERE</button>
+            </a>
+        </div>  
+    </section>
+    <!-- front page mobile📱👆 -->
 
 
     <!-- bestSeller area  -->
@@ -92,7 +131,10 @@
         <div class="heavyweight-hoodie-container">
             <div class="hoddie-box">
                 <span>Spar 24%</span>
-                <img class="heavyweight-hoodie-img" src="/img/index-img/Hoodie (Brown Patched).png" alt="heavyweight hoodie brun">
+                <a href="/html/checkout-hoodie.html" style="text-decoration: none; color: inherit;">
+                    <img class="heavyweight-hoodie-img" src="/img/index-img/Hoodie (Brown Patched).png" alt="heavyweight hoodie brun">
+
+                </a>
             </div>
             <p class="heavyweight-hoodie-tekst">Heavyweight Hoodie</p>
             <div class="pris-container">
@@ -288,5 +330,7 @@
     
    
 <script src="/js/index.js"></script>
+<!-- javscript for iphone 12 screen size  -->
+<script src="/js/iphone12.js"></script>
 </body>
 </html>
