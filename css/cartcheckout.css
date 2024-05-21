@@ -252,6 +252,7 @@ input {
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .pay-now-button:hover {
