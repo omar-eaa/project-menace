@@ -16,7 +16,8 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
 body {
   display: flex;
   flex-direction: column;
-  
+  font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+
   
 }
 
@@ -178,7 +179,9 @@ header nav {
 }
 /* styling drop down 👆 */
 
-
+#check-icon{
+  color: green;
+}
 
 .confirmation-container {
   max-width: 600px;

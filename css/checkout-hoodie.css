@@ -311,6 +311,7 @@ header nav {
     flex-direction: row-reverse;
     justify-content: flex-end;
     border: 6px solid #d9d9d9;
+    margin-bottom: 5% ;
 }
 .big-img{
     border: 4px solid #d9d9d9;
@@ -321,6 +322,15 @@ header nav {
     border: 4px solid #d9d9d9;
 
 }
+#back-link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+   
+  }
 .right-area{
     display: flex;
     flex-direction: column;

@@ -100,32 +100,29 @@
   
         </div>
     </Section>
-
-
-
-
-
     <!-- hoodie body area  -->
     <section class="hoodie-container">
 
 
+        <a href="/html//hoodies.html" style="text-decoration: none; color: inherit;">
+            <i id="back-link" class="fa-solid fa-arrow-left"></i>
+          </a>
         <div class="left-area">
             <div class="big-img">
-                <img class="big-img-hoodie" src="/img/havyhoodies-img/Hoodie (Brown Patched).jpg" alt="heavyweight hoodie brun">
+                <img id="bigImage" class="big-img-hoodie" src="/img/hoodies-img/Hoodie (Brown Patched).jpg" alt="heavyweight hoodie brun">
             </div>
             <div class="small-img-hoodie-container">
                 <div class="small-img1">
-                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Light Blue Patched).jpg" alt="heavyweight pullover hoodie">               
+                    <img class="small-img-hoodie" src="/img/hoodies-img/Hoodie (Light Blue Patched).jpg" alt="heavyweight pullover hoodie">               
                 </div>
                 <div class="small-img2">
-                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Patched).jpg" alt="heavyweight hoodie sort">        
+                    <img class="small-img-hoodie" src="/img/hoodies-img/Hoodie (Black Patched).jpg" alt="heavyweight hoodie sort">        
                 </div>
                 <div class="small-img3">
-                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Black Patched).jpg" alt="heavyweight hoodie sort grøn">
+                    <img class="small-img-hoodie" src="/img/hoodies-img/Hoodie (Black Black Patched).jpg" alt="heavyweight hoodie sort grøn">
                 </div>
             </div>
-    
-        </div>  
+        </div> 
 <br>
 
         <div class="right-area">
@@ -138,10 +135,10 @@
             <div class="color-options-container">
                 <h2>Farve: </h2>
                 <div class="color-container">
-                    <div class="color-box1"></div>
-                    <div class="color-box2"></div>
-                    <div class="color-box3"></div>
-                    <div class="color-box4"></div>
+                    <div id="color1" class="color-box1"></div>
+                    <div id="color2" class="color-box2"></div>
+                    <div id="color3" class="color-box3"></div>
+                    <div id="color4" class="color-box4"></div>
                 </div>
                
             </div>
@@ -159,7 +156,7 @@
             </div>
 
             <div class="pay-container">
-                <button class="checkout-button">
+                <button id="btn"  class="checkout-button">
                     Gå Til Kasse<span class="total-amount"></span>
                 </button>
                 <img class="pay-method-img" src="/img/checkout-hoodie__1-img/Skærmbillede 2024-05-18 kl. 17.38 1.png" alt="pay method image">
@@ -214,6 +211,45 @@
         
     </section>
 
+
+    <div  id="popUp" class="checkout-pop-up-container">
+
+        <div class="inkøbskurv-x-container">
+            <p class="inkøbskurv">Indkøbskurv</p>
+            <i  id="closeBtn" class="fa-regular fa-rectangle-xmark"></i>
+        </div>
+
+        <div class="img-info-container">
+            <img class="pop-img" src="/img/hoodies-img/Hoodie (Brown Patched).jpg" alt="">
+
+            <div class="pop-up-container">
+                <p class="pop-titel">Heavyweight Hoodie</p>
+
+                <div class="pris-number-container">
+                    <p>Pris</p>
+                    <p>0,00 kr.</p>
+                </div>
+
+                <div class="size-icon-container">
+                    <span>Størrelse</span>
+                    <span class="pop-size-s">S</span>
+                </div>
+
+            </div>
+        </div>
+        <button class="pop-up-checkout-button">
+           <a href="/html/cartcheckout.html" style="text-decoration: none; color: inherit;"> Gå Til Kasse
+           </a><span class="total-amount"></span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
   <!-- footer -->
   <footer class="footer-area">
     <img class="line-black" src="/img/index-img/line.png" alt="black-line">
@@ -252,13 +288,12 @@
 
 </footer>
 
-    
-
-
-
-
+             <!-- script for dropdown header -->
     <script src="/js/checkout-hoodie.js"></script>
+    <!-- script for drop down on info-container -->
     <script src="/js/all-checkout.js"></script>
+    <!-- script for functionality for hoodie page 1 -->
+    <script src="/js/hoodie1.js"></script>
 
 </body>
 </html>

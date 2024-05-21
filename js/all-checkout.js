@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // drop down for info-container 👇
   // collecting id
   const box1 = document.getElementById("box1");
   const box2 = document.getElementById("box2");
@@ -24,4 +25,5 @@ document.addEventListener("DOMContentLoaded", function () {
       box2.style.display = "none";
     }
   });
+  // drop down for info-container 👆
 });

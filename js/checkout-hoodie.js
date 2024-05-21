@@ -1,3 +1,4 @@
+// for drop down on header 👇
 // Get the shop element
 const shopElement = document.getElementById("shop");
 

@@ -191,6 +191,17 @@ header nav {
 
 
 /* hoodie container styiling 👇  */
+
+h3{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 1.5rem;
+   
+}
+.pris{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+    font-size: 20px;
+    color: gray;
+}
 .hoodies{
     display: flexbox;
     text-align: center;
@@ -257,4 +268,7 @@ header nav {
 .urban img:hover{
     max-width: 110%; 
 }
+
+
+
 /* hoodie container styiling 👆  */
