@@ -53,12 +53,9 @@ header nav {
     cursor: pointer;
 }
 
-.mid-nav h1 {
-    font-size: 2rem;
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    padding-right: 300px;
-    cursor: pointer;
+.logo {
+   display: flex;
+   width: 35%;
 }
 
 .right-nav i {
@@ -791,3 +788,4 @@ header nav {
   #myBtn:hover {
     background-color: #555;
   }
+
