@@ -17,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   
+  
 }
 
 header {
@@ -258,6 +259,22 @@ input {
 .pay-now-button:hover {
   background-color: #555;
 }
+
+
+#back-link{
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  padding-top: 10%;
+  padding-left: 10%;
+ 
+}
+
+
+
+
+
+
 
 @media (max-width: 600px) {
   .checkout-container {
