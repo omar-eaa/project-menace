@@ -88,6 +88,7 @@ header nav {
     flex-direction: column;
     padding-top: 5%;
     padding-left: 3%;
+    
 }
 
 .shop-right-area{
@@ -309,6 +310,16 @@ header nav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    border: 6px solid #d9d9d9;
+}
+.big-img{
+    border: 4px solid #d9d9d9;
+
+}
+
+.small-img1, .small-img2, .small-img3{
+    border: 4px solid #d9d9d9;
+
 }
 .right-area{
     display: flex;
@@ -378,7 +389,7 @@ header nav {
 .color-box1{
     width: 23px;
     height: 20px;
-    background-color: gold; 
+    background-color: #77c3d0; 
 }
 .color-box2{
     width: 23px;
@@ -388,7 +399,12 @@ header nav {
 .color-box3{
     width: 23px;
     height: 20px;
-    background-color: green; 
+    background-color: black; 
+}
+.color-box4{
+    width: 23px;
+    height: 20px;
+    background-color: #5a483b; 
 }
 
 
@@ -412,17 +428,23 @@ header nav {
 }
 
 .size-s, .size-m, .size-l, .size-xl, .size-xxl {
-    background-color: black;
-    color: white;
-    height: 20px;
-    width: 17px;
-    border-radius: 50%;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
     display: flex;
-    justify-content: center;  /* Horizontally center the content */
-    align-items: center;      /* Vertically center the content */
+    justify-content: center;
+    align-items: center;
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    font-size: 1rem;          /* Adjust font size if necessary */
+    font-size: 1rem;
+    border: 2px solid #d9d9d9;
+}
+.size-s:hover, .size-m:hover, .size-l:hover, .size-xl:hover, .size-xxl:hover{
+    background-color: black;
+    color: white;
+
 }
 
 
@@ -430,25 +452,27 @@ header nav {
 .pay-container{
     display: flex;
     flex-direction: column;
-    padding-top: 7%;
+    padding-top: 15%;
 }
 .checkout-button {
     display: inline-block;
-    padding: 5px 15px;          /* Reduced padding for a smaller button */
-    background-color: white;    /* Set background to white */
-    color: black;               /* Text color */
+    padding: 20px 35px;          /* Reduced padding for a smaller button */
+    background-color: black;    /* Set background to white */
+    color: white;               /* Text color */
     font-size: 1rem;            /* Reduced font size */
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
-    border: 2px solid black;    /* Border for better visibility */
-    border-radius: 10px;        /* Rounded corners */
+    border: 2px solid black;    
+    border-radius: 5px;        
     cursor: pointer;            /* Pointer cursor on hover */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-    width: 50%;                 /* Adjust width */
+    width: 70%;                 /* Adjust width */
 }
 
 .checkout-button:hover {
-    background-color: var(--fire-brick); /* Change background color on hover */
+    background-color: rgb(146, 145, 145);
+    color: white;
+    border: 2px solid rgb(146, 145, 145);  
     transform: scale(1.05);              /* Slightly enlarge button on hover */
 }
 
@@ -467,7 +491,20 @@ header nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 7%;
+    padding-top: 20%;
+}
+.tekst-icon-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.tekst-icon-container i{
+    font-size: 2rem;
+}
+
+.info-li{
+    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
+
 }
 
 .materiale-vaskeanvisninger-container p{

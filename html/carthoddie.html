@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <link rel="stylesheet" href="/css/cart.css"> 
         <title>Hoodies</title>
+        <link rel="icon" href="/img/logo-img/logo_fav_icon.png" type="image/png">
 <body>
   <header>
     <nav>
@@ -92,49 +93,63 @@
      </p>
   </div>
 </Section>
-
-<!-- confirmation cart  -->
-
-<div class="confirmation-container">
-  <a href="#" class="back-link">Tilbage</a>
-  <div class="confirmation-content">
-      <div class="confirmation-icon">
-          <span class="checkmark">✔️</span>
-      </div>
-      <h1>Great news (your name)<br> your order has been received</h1>
-      <p class="order-number">order #5473089</p>
-      <div class="order-summary">
-          <p>(your name)</p>
-          <p>yourname@hotmail.com</p>
-          <p>1213 st</p>
-          <p>Århus, Danmark</p>
-          <p class="order-total">700.kr</p>
-          <div class="item">
-              <img src="/img/havyhoodies-img/Hoodie (Brown Patched).jpg" alt="Heavy Hoodie" class="item-image">
-              <div class="item-details">
-                  <p>Heavy Hoodie</p>
-                  <p>Size: M</p>
-                  <p class="item-price">600.kr</p>
-              </div>
+<body>
+  <div class="confirmation-container">
+      <a href="checkout.html" class="back-link">Tilbage</a>
+      <div class="confirmation-content">
+          <div class="confirmation-icon">
+              <span class="checkmark">✔️</span>
           </div>
-          <div class="cost-summary">
-              <div class="cost-item">
-                  <p>Sub total</p>
-                  <p>600.kr</p>
+          <h1>Great news <span id="customer-name"></span><br> your order has been received</h1>
+          <p class="order-number">order #5473089</p>
+          <div class="order-summary">
+              <p id="customer-name-details"></p>
+              <p id="customer-email"></p>
+              <p id="customer-address"></p>
+              <p id="customer-postcode"></p>
+              <p id="customer-country"></p>
+              <p id="customer-phone"></p>
+              <p class="order-total">700.kr</p>
+              <div class="item">
+                  <img src="hoodie.jpg" alt="Heavy Hoodie" class="item-image">
+                  <div class="item-details">
+                      <p>Heavy Hoodie</p>
+                      <p>Size: M</p>
+                      <p class="item-price">600.kr</p>
+                  </div>
               </div>
-              <div class="cost-item">
-                  <p>Shipping</p>
-                  <p>100.kr</p>
+              <div class="cost-summary">
+                  <div class="cost-item">
+                      <p>Sub total</p>
+                      <p>600.kr</p>
+                  </div>
+                  <div class="cost-item">
+                      <p>Shipping</p>
+                      <p>100.kr</p>
+                  </div>
+                  <div class="cost-item">
+                      <p>Total</p>
+                      <p>700.kr</p>
+                  </div>
               </div>
-              <div class="cost-item">
-                  <p>Total</p>
-                  <p>700.kr</p>
-              </div>
+              <a href="shop.html" class="return-link">Return to shop</a>
           </div>
-          <a href="#" class="return-link">Return to shop</a>
       </div>
   </div>
-</div>
-
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const orderDetails = JSON.parse(localStorage.getItem('orderDetails'));
+          if (orderDetails) {
+              document.getElementById('customer-name').innerText = `${orderDetails.firstName} ${orderDetails.lastName}`;
+              document.getElementById('customer-name-details').innerText = `${orderDetails.firstName} ${orderDetails.lastName}`;
+              document.getElementById('customer-email').innerText = orderDetails.email;
+              document.getElementById('customer-address').innerText = orderDetails.address;
+              document.getElementById('customer-postcode').innerText = orderDetails.postcode;
+              document.getElementById('customer-country').innerText = orderDetails.country;
+              document.getElementById('customer-phone').innerText = orderDetails.phone;
+          }
+      });
+  </script>
+    
 </body>
 </html>
