@@ -192,17 +192,24 @@ header nav {
 
 /* hoodie container styiling 👇  */
 .hoodies{
+    display: flexbox;
     text-align: center;
     margin-top: 5%;
+   
 }
 
 .urban {
+    display: flexbox;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
     gap: 20px; /* Gap between grid items */
     justify-content: center; /* Center the grid items horizontally */
     align-items: center; /* Center the grid items vertically */
     margin-top: 5%; /* Adjust margin as needed */
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 3rem;
 }
 
 .urban .hoodie-1-container,
@@ -234,15 +241,20 @@ header nav {
 .urban .hoodie-10-container:hover,
 .urban .hoodie-11-container:hover,
 .urban .hoodie-12-container:hover {
-    border: 2px solid #000000; /* Add border on hover */
+    border: 0px solid #000000; /* Add border on hover */
     padding-top: 5%;
 }
 
 .urban img {
-    max-width: 90%; /* Ensure images don't overflow the container */
+    max-width: 100%; /* Ensure images don't overflow the container */
     height: auto; /* Maintain aspect ratio */
-    border: 2px solid #000000;
+    border: 5px solid #0d0c0c;
     background-color: #dad7d7;
     border-radius: 10px;
+    align-items: center;
+}
+
+.urban img:hover{
+    max-width: 120%; 
 }
 /* hoodie container styiling 👆  */
