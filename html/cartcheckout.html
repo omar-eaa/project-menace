@@ -104,44 +104,46 @@
       </div>
   </Section>
 
-    <div class="checkout-container">
-        <form id="checkout-form">
-            <div class="contact-info">
-                <h2>KontaktOplysninger</h2>
-                <input type="email" id="email" placeholder="MAIL" required>
-            </div>
-            <div class="shipping-info">
-                <h2>Levering</h2>
-                <input type="text" id="first-name" placeholder="FORNAVN" required>
-                <input type="text" id="last-name" placeholder="EFTERNAVN" required>
-                <input type="text" id="address" placeholder="ADRESSE" required>
-                <input type="text" id="postcode" placeholder="POSTNUMMER" required>
-                <input type="text" id="country" placeholder="LAND" required>
-                <input type="tel" id="phone" placeholder="TELEFON" required>
-            </div>
-            <div class="cart-summary">
-                <h2>Inköbskurv</h2>
-                <div class="cart-item">
-                    <img src="hoodie.jpg" alt="Heavyweight Hoodie" class="item-image">
-                    <div class="item-details">
-                        <p>Heavyweight Hoodie</p>
-                        <p>Pris: 600,00kr</p>
-                        <label for="quantity">Antal:</label>
-                        <input type="number" id="quantity" value="1" min="1">
-                    </div>
+
+  <div class="checkout-container">
+    <form id="checkout-form">
+        <div class="contact-info">
+            <h2>KontaktOplysninger</h2>
+            <input type="email" id="email" placeholder="MAIL" required>
+        </div>
+        <div class="shipping-info">
+            <h2>Levering</h2>
+            <input type="text" id="first-name" placeholder="FORNAVN" required>
+            <input type="text" id="last-name" placeholder="EFTERNAVN" required>
+            <input type="text" id="address" placeholder="ADRESSE" required>
+            <input type="text" id="postcode" placeholder="POSTNUMMER" required>
+            <input type="text" id="country" placeholder="LAND" required>
+            <input type="tel" id="phone" placeholder="TELEFON" required>
+        </div>
+        <div class="cart-summary">
+            <h2>Inköbskurv</h2>
+            <div class="cart-item">
+                <img src="hoodie.jpg" alt="Heavyweight Hoodie" class="item-image">
+                <div class="item-details">
+                    <p>Heavyweight Hoodie</p>
+                    <p>Pris: 600,00kr</p>
+                    <label for="quantity">Antal:</label>
+                    <input type="number" id="quantity" value="1" min="1">
                 </div>
-                <div class="discount-code">
-                    <input type="text" id="discount-code" placeholder="RABATKODE">
-                </div>
-                <div class="cost-summary">
-                    <p>SUBTOTAL: <span>600,00kr</span></p>
-                    <p>LEVERING: <span>100,00kr</span></p>
-                    <p>I ALT: <span>700,00kr</span></p>
-                </div>
-                <button type="submit" class="pay-now-button">Betal Nu</button>
             </div>
-        </form>
-    </div>
+            <div class="discount-code">
+                <input type="text" id="discount-code" placeholder="RABATKODE">
+            </div>
+            <div class="cost-summary">
+                <p>SUBTOTAL: <span>600,00kr</span></p>
+                <p>LEVERING: <span>100,00kr</span></p>
+                <p>I ALT: <span>700,00kr</span></p>
+            </div>
+            <button type="submit" class="pay-now-button"><a  href="/html/carthoddie.html">
+                Betal Nu<a ></button>
+        </div>
+    </form>
+</div>
     <script src="/js/cartcheckout.js"></script>
 </body>
 </html>

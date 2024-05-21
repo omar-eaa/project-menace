@@ -70,5 +70,5 @@ document.getElementById('checkout-form').addEventListener('submit', function(eve
 
   localStorage.setItem('orderDetails', JSON.stringify(orderDetails));
 
-  window.location.href = 'confirmation.html';
+  // window.location.href = "/html/carthoodie";
 });
