@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -110,11 +110,19 @@
 
 
         <div class="left-area">
-            <img class="big-img-hoodie" src="/img/havyhoodies-img/Hoodie (Brown Patched).jpg" alt="heavyweight hoodie brun">
+            <div class="big-img">
+                <img class="big-img-hoodie" src="/img/havyhoodies-img/Hoodie (Brown Patched).jpg" alt="heavyweight hoodie brun">
+            </div>
             <div class="small-img-hoodie-container">
-                <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Light Blue Patched).jpg" alt="heavyweight pullover hoodie">               
-                <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Patched).jpg" alt="heavyweight hoodie sort">        
-                <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Black Patched).jpg" alt="heavyweight hoodie sort grøn">
+                <div class="small-img1">
+                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Light Blue Patched).jpg" alt="heavyweight pullover hoodie">               
+                </div>
+                <div class="small-img2">
+                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Patched).jpg" alt="heavyweight hoodie sort">        
+                </div>
+                <div class="small-img3">
+                    <img class="small-img-hoodie" src="/img/havyhoodies-img/Hoodie (Black Black Patched).jpg" alt="heavyweight hoodie sort grøn">
+                </div>
             </div>
     
         </div>  
@@ -133,6 +141,7 @@
                     <div class="color-box1"></div>
                     <div class="color-box2"></div>
                     <div class="color-box3"></div>
+                    <div class="color-box4"></div>
                 </div>
                
             </div>
@@ -151,23 +160,23 @@
 
             <div class="pay-container">
                 <button class="checkout-button">
-                    Gå Til Kasse - <span class="total-amount">0,00kr.</span>
+                    Gå Til Kasse<span class="total-amount"></span>
                 </button>
                 <img class="pay-method-img" src="/img/checkout-hoodie__1-img/Skærmbillede 2024-05-18 kl. 17.38 1.png" alt="pay method image">
             </div>
     
             <div class="info-container">
                 <div id="materiale" class="materiale-vaskeanvisninger-container">
-                    <p class="m-t-teskt">Materiale & Vaskeanvisninger <span>⌄</span></p>
-                    <div class="black-line"></div>
-
-
+                    <div class="tekst-icon-container">
+                        <p class="shopping-teskt">Materiale & Vaskeanvisninger</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>                    <div class="black-line"></div>
                     <span id="box1">
                         <div class="animate__animated animate__fadeInRight">
                             <div class="info-box1-container">
                                 <ul >
-                                    <li>Beskrivelse af materialerne (f.eks. bomuld, polyester, uld).</li>
-                                    <li>Angivelse af procentdelen af forskellige materialer, hvis produktet er en blanding.</li>
+                                    <li class="info-li">Beskrivelse af materialerne (f.eks. bomuld, polyester, uld).</li>
+                                    <li class="info-li">Angivelse af procentdelen af forskellige materialer, hvis produktet er en blanding.</li>
                                 </ul>
                             </div>
                         </div>
@@ -176,7 +185,10 @@
                     
                 </div>
                 <div id="shipping" class="shipping">
-                    <p class="shopping-teskt">Vaskeanvisninger<span>⌄</span></p>
+                    <div class="tekst-icon-container">
+                        <p class="shopping-teskt">Vaskeanvisninger</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
                     <div class="black-line"></div>
 
                     <span id="box2">
