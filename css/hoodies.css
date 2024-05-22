@@ -322,8 +322,6 @@ aside {
 /* for iphone 12 pro  */
 @media (max-width: 768px) {
 
-
-
  /* hiding header destop nav */
  header{
     display: none;
