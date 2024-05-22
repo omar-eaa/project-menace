@@ -18,6 +18,10 @@ body {
   flex-direction: column;
   
 }
+.logo {
+  display: flex;
+  width: 35%;
+}
 
 header {
   background-color: white;
