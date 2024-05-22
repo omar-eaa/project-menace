@@ -18,6 +18,7 @@ body {
    position: fixed; */
 }
 
+/*styling of nav bar starts here */
 header {
     background-color: white;
     text-align: center;
@@ -52,7 +53,7 @@ header nav {
 .mid-nav h1 {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
+    font-variation-settings: 'wght' 00;
     padding-right: 300px;
 }
 
@@ -60,7 +61,10 @@ header nav {
     font-size: 2.5rem;
 }
 
-
+.logo {
+    display: flex;
+    width: 35%;
+ }
 /* styling drop down 👇 */
 
 /* shop👇 */
@@ -177,221 +181,10 @@ header nav {
 /* styling drop down 👆 */
 
 
+/*styling of nav bar ends here *********************************/
 
 
 
-
-
-
-/* checkout */
-
-/* styling left area 👇 */
-.hoodie-container{
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7%;
-}
-.left-area{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-}
-.right-area{
-    display: flex;
-    flex-direction: column;
-  
-    
-}
-.big-img-hoodie{
-    height: auto;
-    width: 60vh;
-}
-.small-img-hoodie{
-    height: auto;
-    width: 20vh;
-}
-
-.small-img-hoodie-container{
-    display: flex;
-    flex-direction: column;
-}
-
-/* styling right area 👇 */
-.name-prise-moms-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.name-prise-moms-container h1{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 2rem;
-    color: black;
-}
-
-.name-prise-moms-container h2{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 1.5rem;
-    color: rgb(67, 66, 66);
-    font-weight: 400;
-}
-.name-prise-moms-container span{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 1rem;
-    color: rgb(67, 66, 66);
-    font-weight: 400;
-}
-
-
-
-.color-options-container{
-    display: flex;
-    flex-direction: column;
-    padding-top: 7%;
-}
-
-.color-options-container h2{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    font-size: 1.5rem;
-    color: rgb(67, 66, 66);
- 
-}
-.color-container{
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-}
-.color-box1{
-    width: 23px;
-    height: 20px;
-    background-color: gold; 
-}
-.color-box2{
-    width: 23px;
-    height: 20px; 
-    background-color:gray; 
-}
-.color-box3{
-    width: 23px;
-    height: 20px;
-    background-color: green; 
-}
-
-
-.size-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 7%;
-}
-
-.s-m-l-x-xxl-container {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-}
-
-.size-container h2 {
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-size: 1.5rem;
-    color: rgb(67, 66, 66);
-}
-
-.size-s, .size-m, .size-l, .size-xl, .size-xxl {
-    background-color: black;
-    color: white;
-    height: 20px;
-    width: 17px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;  /* Horizontally center the content */
-    align-items: center;      /* Vertically center the content */
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-size: 1rem;          /* Adjust font size if necessary */
-}
-
-
-
-.pay-container{
-    display: flex;
-    flex-direction: column;
-    padding-top: 7%;
-}
-.checkout-button {
-    display: inline-block;
-    padding: 5px 15px;          /* Reduced padding for a smaller button */
-    background-color: white;    /* Set background to white */
-    color: black;               /* Text color */
-    font-size: 1rem;            /* Reduced font size */
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    border: 2px solid black;    /* Border for better visibility */
-    border-radius: 10px;        /* Rounded corners */
-    cursor: pointer;            /* Pointer cursor on hover */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-    width: 50%;                 /* Adjust width */
-}
-
-.checkout-button:hover {
-    background-color: var(--fire-brick); /* Change background color on hover */
-    transform: scale(1.05);              /* Slightly enlarge button on hover */
-}
-
-.total-amount {
-    font-weight: bold;
-    font-size: 1rem;          /* Adjusted font size */
-}
-
-
-.pay-method-img{
-    height: auto;
-    width: 70%;
-}
-
-.info-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 7%;
-}
-
-.materiale-vaskeanvisninger-container p{
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-size: 1.5rem;
-    color: rgb(67, 66, 66);
-    font-weight: 400;
-    padding-bottom: 4%;
-}
-.black-line{
-    height: 5px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-   
-}
-
-.shipping p{
-    font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
-    font-size: 1.5rem;
-    color: rgb(67, 66, 66);
-    font-weight: 400;
-    padding-bottom: 4%;
-}
-.black-line{
-    height: 5px;
-    width: 100%;
-    background-color: black;
-    border-radius: 10px;
-   
-}
-
-/* checkout */
 
 
 
@@ -428,7 +221,10 @@ header nav {
 }
 /* om-os færdig */
 
-/* coming soon styling*/
+
+
+
+/* coming soon styling***************************************************/
 #video-coming-soon {
     position: relative; /* Change to relative positioning */
     width: 100%;
@@ -467,8 +263,9 @@ header nav {
 .countdown-box {
         background:#a73828;
         border-radius: 10px;
-        padding: 20px;
-        margin-top: 10px;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 9%;
         text-align: center;
 }
       
@@ -487,9 +284,9 @@ header nav {
       
 
 .text-overlay-p{
-    
     font-weight: bold;
-    margin-top:30px;
+    margin-top:20px;
+    margin-bottom: 5px;
     font-size: 1.9rem;
 }
 
@@ -547,3 +344,181 @@ header nav {
     background-color: black;
   }
   
+
+
+/* styhling for mobile responsive*/
+
+/* hiding mobile nav */
+aside {
+    display: none;
+}
+.sidebar {
+    display: none;
+}
+
+/* for iphone 12 pro  */
+@media (max-width: 768px) {
+
+ /* hiding header destop nav */
+ header{
+    display: none;
+}
+    
+
+   
+
+    
+
+
+
+aside {
+display: block;
+  top: 0;
+
+}
+
+.sidebar {
+     display: block;
+    position: sticky; 
+}
+
+.logo-mobile{
+    display: flex;
+    width: 97%;
+    padding-left: 30%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+}
+
+aside {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.burger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.burger-icon {
+    display: inline-block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    position: relative;
+}
+
+.burger-icon::before,
+.burger-icon::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+}
+
+.burger-icon::before {
+    top: -8px;
+}
+
+.burger-icon::after {
+    top: 8px;
+}
+
+.mid-nav h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.right-nav i {
+    font-size: 1.5em;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    padding: 8px 16px;
+}
+
+.sidebar-menu li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar-menu li a:hover {
+    color: #f1f1f1;
+}
+
+
+
+
+
+/* hoodie content */
+.hoodie-titel{
+    font-size: 2rem;
+    padding-top: 10%;
+}
+
+
+.urban{
+    grid-template-columns: repeat(1, 3fr);
+    padding-top: 50%;
+    padding-bottom: 40%;
+}
+#back-link{
+    padding-top: 30%;
+    padding-left: 4%;
+}
+}

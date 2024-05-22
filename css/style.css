@@ -2,6 +2,7 @@
 font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
  */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,9 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    
+    position: relative;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
 }
 
 header {
@@ -81,7 +84,7 @@ header nav {
     gap: 70%;
     padding-left: 5%;
     padding-bottom: 5%;
-    background-color: #e4e2e2;
+    background-color: #f0f0f1;
 }
 
 .shop-left-area{
@@ -156,7 +159,7 @@ header nav {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    background-color: #e4e2e2;
+    background-color: #f0f0f1;
     cursor: pointer;
 }
 .om-os-nav-area{
@@ -212,7 +215,8 @@ header nav {
     color: #ffffff;
     text-transform: uppercase;
     font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 200;
+    font-variation-settings: 'wght' 700;
+    font-size: 1.7rem;
 }
 
 .btn {
@@ -304,7 +308,7 @@ header nav {
 }
 
 .hoddie-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 142%;
     border-radius: 10px;
@@ -355,7 +359,7 @@ header nav {
 }
 
 .sweatshirt-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -399,7 +403,7 @@ header nav {
 }
 
 .t-shirt-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -432,7 +436,7 @@ header nav {
 }
 
 .cap-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -464,25 +468,25 @@ header nav {
 /* hover effekt */
 /* Hoodie Box */
 .hoddie-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color: #dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* Sweatshirt Box */
 .sweatshirt-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color:#dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* T-shirt Box */
 .t-shirt-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color: #dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* Cap Box */
 .cap-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color:#dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
@@ -795,7 +799,7 @@ header nav {
 
 
 /* hiding mobile nav */
-  aside {
+  .mobile-nav {
     display: none;
 }
 .sidebar {
@@ -803,8 +807,12 @@ header nav {
 }
 .video-section-mobile{
     display: none;
+    max-width: 100%;
+    overflow-x: hidden;
 }
-
+.btn-mobile{
+    display: none;
+}
 
 /* for iphone 12 pro  */
 @media (max-width: 768px) {
@@ -824,15 +832,10 @@ header nav {
         
         /* show fron page img  */
         .video-section-mobile{
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-
-
-    aside {
-    display: block;
-      top: 0;
-    
-    }
  
     .sidebar {
          display: block;
@@ -850,11 +853,24 @@ header nav {
        
     }
 
-    aside {
+    .test-div {
+        width: 100%;
+        height: 40px;
+        z-index: 100;
+        position: sticky;
+        top: 0;
+        background-color: red;
+    }
+
+    .mobile-nav {
+        display: block;
+        top: 0;
         width: 100%;
         background-color: #fff;
         color: #000;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
     }
 
     nav {
@@ -987,11 +1003,13 @@ header nav {
         /* Center items horizontally */
         gap: 2rem;
         position: absolute;
-        top: 50%;
+        top: 7%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: 100000;
     }
     
+   
     .btn-mobile{
         background-color: transparent;
         color: #ffffff;
@@ -1000,6 +1018,7 @@ header nav {
         border: 2px solid #ffffff;
         cursor: pointer;
         transition: background-color 0.3s;
+    
     }
     
     .btn:hover-mobile {
@@ -1008,7 +1027,7 @@ header nav {
     }
     
     .front-page-h1{
-        padding-left: 6%;
+        padding-left: 18%;
     }
     .bestseller-titel {
         font-size: 2.5rem;
