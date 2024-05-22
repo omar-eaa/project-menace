@@ -52,7 +52,7 @@ header nav {
 .mid-nav h1 {
     font-size: 2rem;
     font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 400;
+    font-variation-settings: 'wght' 900;
     padding-right: 300px;
 }
 
@@ -60,7 +60,10 @@ header nav {
     font-size: 2.5rem;
 }
 
-
+.logo {
+    display: flex;
+    width: 35%;
+ }
 /* styling drop down 👇 */
 
 /* shop👇 */
@@ -428,6 +431,9 @@ header nav {
 }
 /* om-os færdig */
 
+
+
+
 /* coming soon styling*/
 #video-coming-soon {
     position: relative; /* Change to relative positioning */
@@ -467,8 +473,9 @@ header nav {
 .countdown-box {
         background:#a73828;
         border-radius: 10px;
-        padding: 20px;
-        margin-top: 10px;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 9%;
         text-align: center;
 }
       
@@ -487,9 +494,9 @@ header nav {
       
 
 .text-overlay-p{
-    
     font-weight: bold;
-    margin-top:30px;
+    margin-top:20px;
+    margin-bottom: 5px;
     font-size: 1.9rem;
 }
 
