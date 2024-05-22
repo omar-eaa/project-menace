@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ncj3ldq.css">
     <link rel="stylesheet" href="/css/comming-soon.css"> 
     <title>Coming Soon | Project Menace</title>
     <link rel="icon" href="/img/logo-img/logo_fav_icon.png" type="image/png">
@@ -22,8 +23,8 @@
                 </ul>
             </div>
 
-            <div class="mid-nav">
-                <h1 id="homePage">Project Menace</h1>
+            <div class="logo">
+                <a href="index.html"><img src="/img/logo-img/menace_logo_sort.png" alt="Project Menace Logo" class="logo"></a>
             </div>
 
             <div class="right-nav">
@@ -73,19 +74,36 @@
             <source src="/video/Website-Video_Horizontal.mp4" type="video/mp4">
         </video>
 
-        <section id="video-coming-soon">
-            <div class="text-overlay">
-                <h2>07:07:24</h2>
-                <p class="text-overlay-p">Our new collection is dropping soon!</p>
+        <div class="text-overlay">
+            <p class="text-overlay-p">Our New Collection Is Dropping Soon!</p> 
+            <div id="countdown">
+                <div class="countdown-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="countdown-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
             </div>
+       
+        </div>
 
-            <p1 class="signuohere">Sign up here</p1>
-            <section class="signup">
-                <br>
-                <input type="email" placeholder=".........@outlook.dk">
-                <input class="submit-btn" type="submit">
-            
-            </section>
+        <div class="signup-section">
+            <p class="sign-up-here">Sign up here</p>
+            <div class="signup">
+                <input type="email" placeholder="youremail@outlook.dk" id="email">
+                <input class="submit-btn" type="submit" value="Get notified" onclick="submitEmail()">
+            </div>
+        </div>
 
 
 

@@ -172,6 +172,7 @@ header nav {
 }
 
 
+
 .bæredygtighed{
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 400;
@@ -182,8 +183,6 @@ header nav {
     font-variation-settings: 'wght' 400;
     font-weight: bold;
 }
-/* styling drop down 👆 */
-
 
 
 
@@ -280,7 +279,7 @@ header nav {
 
 .bestsellers-container {
     display: inline-flex; /* Display child elements in a row */
-    gap: 20%; /* Add some space between child elements */
+    gap: 7%; /* Add some space between child elements */
 }
 
 /* Maintain the styles for individual product containers */
@@ -307,10 +306,9 @@ header nav {
 }
 
 .hoddie-box {
-    border: 2px solid #000000;
     background-color: #dad7d7;
     height: auto;
-    width: 150%;
+    width: 142%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -330,6 +328,8 @@ header nav {
 .heavyweight-hoodie-tekst{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
    font-size: 20px;
+   padding-top: 10%;
+
 }
 .pris-container{
     display: flex;
@@ -357,7 +357,6 @@ header nav {
 }
 
 .sweatshirt-box {
-    border: 2px solid #000000;
     background-color: #dad7d7;
     height: auto;
     width: 150%;
@@ -365,7 +364,6 @@ header nav {
 }
 
 .jacket-img{
-    border: 2px solid #000000;
     background-color: #dad7d7;
     height: auto;
     width: 130%;
@@ -382,6 +380,7 @@ header nav {
 .sweatshirt-tekst{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
    font-size: 20px;
+   padding-top: 10%;
 }
 .pris-container{
     display: flex;
@@ -402,7 +401,6 @@ header nav {
 }
 
 .t-shirt-box {
-    border: 2px solid #000000;
     background-color: #dad7d7;
     height: auto;
     width: 150%;
@@ -436,7 +434,6 @@ header nav {
 }
 
 .cap-box {
-    border: 2px solid #000000;
     background-color: #dad7d7;
     height: auto;
     width: 150%;
@@ -534,7 +531,6 @@ header nav {
     width: 25%;
 }
 .ig-img:hover{
-    border: 2px solid #000000;
     border-radius: 10px;
 }
 
