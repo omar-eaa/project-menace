@@ -65,11 +65,11 @@ header nav {
 }
 
 
-.mid-nav h1 {
-  font-size: 2rem;
-  font-family: "fractul-variable", sans-serif;
-  font-variation-settings: 'wght' 400;
-  padding-right: 300px;
+.mid-nav img{
+  display: flex;
+  width: 35%;
+  align-items: center;
+  margin-left: 10%;
 }
 
 .right-nav i {
@@ -306,6 +306,7 @@ header nav {
   height: auto;
   width: 90%;
   padding-left: 10%;
+  padding-top: 2%;
 }
 
 /* Styling for text elements */
@@ -345,10 +346,23 @@ header nav {
   padding-left: 13%;
 }
 
+/* Mobile */
+
+/* hiding mobile nav */
+aside {
+  display: none;
+}
+.sidebar {
+  display: none;
+}
+
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .footer-area {
     padding-bottom: 5%; /* Reduce the bottom padding for smaller screens */
+    padding-left: 10%;
+    text-align: center;
   }
   
   .footer-tekst-container {
@@ -357,7 +371,7 @@ header nav {
   }
 
   .line-black {
-    width: 100%; /* Make the line full width on smaller screens */
+    width: 130%; /* Make the line full width on smaller screens */
     padding-left: 0; /* Remove left padding on smaller screens */
   }
 
