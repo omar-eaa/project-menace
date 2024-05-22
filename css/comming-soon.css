@@ -460,9 +460,9 @@ header nav {
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 1;
-    margin-top: -1080px;
+   
     color: rgb(255, 255, 255);
-    font-size: 50px;
+   
     }
 .text-overlay-p{
     padding-top: 4%;
