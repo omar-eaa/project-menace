@@ -83,7 +83,7 @@ header nav {
     gap: 70%;
     padding-left: 5%;
     padding-bottom: 5%;
-    background-color: #e4e2e2;
+    background-color: #f0f0f1;
 }
 
 .shop-left-area{
@@ -158,7 +158,7 @@ header nav {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
-    background-color: #e4e2e2;
+    background-color: #f0f0f1;
     cursor: pointer;
 }
 .om-os-nav-area{
@@ -306,7 +306,7 @@ header nav {
 }
 
 .hoddie-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 142%;
     border-radius: 10px;
@@ -357,7 +357,7 @@ header nav {
 }
 
 .sweatshirt-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -401,7 +401,7 @@ header nav {
 }
 
 .t-shirt-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -434,7 +434,7 @@ header nav {
 }
 
 .cap-box {
-    background-color: #dad7d7;
+    background-color: #f0f0f1;
     height: auto;
     width: 150%;
     border-radius: 10px;
@@ -466,25 +466,25 @@ header nav {
 /* hover effekt */
 /* Hoodie Box */
 .hoddie-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color: #dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* Sweatshirt Box */
 .sweatshirt-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color:#dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* T-shirt Box */
 .t-shirt-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color: #dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
 /* Cap Box */
 .cap-box:hover {
-    background-color: #000000; /* Change background color on hover */
+    background-color:#dad7d7; /* Change background color on hover */
     color: #ffffff; /* Change text color on hover */
 }
 
