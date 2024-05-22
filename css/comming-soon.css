@@ -13,10 +13,7 @@ font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
     --special-grey: rgb(232, 232, 232);
 }
 
-body {
-   /* margin-bottom: 0%;
-   position: fixed; */
-}
+
 
 /*styling of nav bar starts here */
 header {
