@@ -452,6 +452,7 @@ header nav {
     text-align: center;
     z-index: 1;
     color: white;
+    
    
 }
 
@@ -467,6 +468,7 @@ header nav {
         background:#a73828;
         border-radius: 10px;
         padding: 20px;
+        margin-top: 10px;
         text-align: center;
 }
       
@@ -485,8 +487,10 @@ header nav {
       
 
 .text-overlay-p{
-    margin-top:20px;
-    font-size: 1.5rem;
+    
+    font-weight: bold;
+    margin-top:30px;
+    font-size: 1.9rem;
 }
 
 .signup-section {
@@ -502,6 +506,8 @@ header nav {
   .sign-up-here {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: white;
+    
   }
   
   .signup {
@@ -513,6 +519,9 @@ header nav {
 
 
 /* Input styles */
+.signup-section{
+    padding-bottom: 40px;
+}
 
 
 .signup input[type="email"], .signup input[type="submit"] {
