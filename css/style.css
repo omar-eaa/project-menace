@@ -2,6 +2,7 @@
 font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
  */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -214,7 +215,8 @@ header nav {
     color: #ffffff;
     text-transform: uppercase;
     font-family: "fractul-variable", sans-serif;
-    font-variation-settings: 'wght' 200;
+    font-variation-settings: 'wght' 700;
+    font-size: 1.7rem;
 }
 
 .btn {
