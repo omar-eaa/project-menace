@@ -46,34 +46,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // count down
 
-document.addEventListener("DOMContentLoaded", function () {
-  const countdownElement = document.querySelector("#video-coming-soon h2");
-  const initialTime = "07:07:24"; // Initial countdown time in HH:MM:SS format
+document.addEventListener('DOMContentLoaded', (event) => {
+  // Set the date we're counting down to
+  const countDownDate = new Date("Jun 30, 2024 00:00:00").getTime();
 
-  function parseTimeString(timeString) {
-    const [hours, minutes, seconds] = timeString.split(":").map(Number);
-    return hours * 3600 + minutes * 60 + seconds;
-  }
-
-  function formatTime(seconds) {
-    const hrs = String(Math.floor(seconds / 3600)).padStart(2, "0");
-    const mins = String(Math.floor((seconds % 3600) / 60)).padStart(2, "0");
-    const secs = String(seconds % 60).padStart(2, "0");
-    return `${hrs}:${mins}:${secs}`;
-  }
-
-  function startCountdown(duration) {
-    let timeRemaining = duration;
-    const intervalId = setInterval(() => {
-      countdownElement.textContent = formatTime(timeRemaining);
-      if (timeRemaining === 0) {
-        timeRemaining = duration;
-      } else {
-        timeRemaining -= 1;
+  // Update the count down every 1 second
+  const x = setInterval(function() {
+      // Get today's date and time
+      const now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      const distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the elements with id
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+    
+      // If the count down is over, write some text 
+      if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countdown").innerHTML = "EXPIRED";
       }
-    }, 1000);
-  }
-
-  const countdownDuration = parseTimeString(initialTime);
-  startCountdown(countdownDuration);
+  }, 1000);
 });
+
+function submitEmail() {
+  const email = document.getElementById('email').value;
+  alert(`Email submitted: ${email}`);
+  // Here you would typically send the email to your server
+}
+
