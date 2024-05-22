@@ -65,9 +65,12 @@ header nav {
 }
 
 .right-nav i {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    
 }
-
+#iconCart{
+    padding-right: 10%;
+}
 
 /* styling drop down 👇 */
 
@@ -419,6 +422,7 @@ header nav {
 .t-shirt-tekst{
     font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
    font-size: 20px;
+   padding-top: 10%;
 }
 .pris-container{
     display: flex;
@@ -463,6 +467,11 @@ header nav {
 }
 
 
+/* .ho-p{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7%;
+} */
 
 
 
