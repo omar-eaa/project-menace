@@ -271,7 +271,8 @@ header nav {
 }
 
 
-/* scoll css */
+
+/* Scroll CSS */
 .product-front-page {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent wrapping of child elements */
@@ -279,225 +280,50 @@ header nav {
     padding-top: 10%;
 }
 
-.bestsellers-container {
-    display: inline-flex; /* Display child elements in a row */
-    gap: 7%; /* Add some space between child elements */
+.product-container {
+    display: inline-block; /* Display child elements in a row */
+    text-align: center; /* Center align text */
+    margin-right: 20px; /* Add some space between products */
+    width: 400px; /* Increase the width for product containers */
+    font-family: "fractul-variable", sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
-/* Maintain the styles for individual product containers */
-.heavyweight-hoodie-container,
-.sweatshirt-container,
-.t-shirt-container,
-.cap-container {
-    /* Maintain existing styles */
-    display: flex;
-    flex-direction: column;
-    
-    /* Add any other styles you want to keep */
+.product-container:hover {
+    transform: translateY(-10px); /* Lift the product up slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow for a 3D effect */
 }
 
-
-
-
-
-/* hoodie */
-.heavyweight-hoodie-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.hoddie-box {
-    background-color: #f0f0f1;
-    height: auto;
-    width: 142%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.heavyweight-hoodie-img {
-    width: 100%; /* Set image width to 100% */
+.product-img {
+    width: 100%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
-}
-.hoddie-box span{
-    background: var(--fire-brick);
-    border-radius: 2px;
-    color: #fff;
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-    width: 30%;
-}
-.heavyweight-hoodie-tekst{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-   font-size: 20px;
-   padding-top: 10%;
-
-}
-.pris-container{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    border: 1px solid #ccc; /* Add a border to images */
+    border-radius: 10px; /* Rounded corners for images */
+    transition: transform 0.3s ease; /* Smooth transition for image scaling */
 }
 
-.rabat{
-    text-decoration: line-through;
-    color: #989595;
+.product-container:hover .product-img {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
 }
 
-.pris{
-    color: var(--fire-brick);
+.product-details {
+    margin-top: 10px; /* Space between image and details */
 }
 
-
-
-
-/*  sweatshirt*/
-.sweatshirt-hoodie-container{
-    display: flex;
-    flex-direction: column;
-    
+.product-name {
+    display: block;
+    margin-bottom: 5px; /* Space between name and price */
+    font-weight: 700; /* Ensuring a bold font weight */
+    font-size: 18px; /* Increase the font size */
+    color: #000; /* Make the font color black for darkness */
 }
 
-.sweatshirt-box {
-    background-color: #f0f0f1;
-    height: auto;
-    width: 150%;
-    border-radius: 10px;
+.product-price {
+    display: block;
+    color: #555; /* A darker gray for the price */
+    font-size: 16px; /* Adjust the font size if needed */
 }
 
-.jacket-img{
-    background-color: #dad7d7;
-    height: auto;
-    width: 130%;
-    border-radius: 10px;
-
-}
-
-
-.sweatshirt-img {
-    width: 100%; /* Set image width to 100% */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.sweatshirt-tekst{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-   font-size: 20px;
-   padding-top: 10%;
-}
-.pris-container{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-}
-.pris{
-    color: var(--fire-brick);
-}
-
-
-
-/* t-shirt */
-.t-shirt-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.t-shirt-box {
-    background-color: #f0f0f1;
-    height: auto;
-    width: 150%;
-    border-radius: 10px;
-}
-
-.t-shirt-img {
-    width: 100%; /* Set image width to 100% */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.t-shirt-tekst{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-   font-size: 20px;
-}
-.pris-container{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-}
-.pris{
-    color: var(--fire-brick);
-}
-
-
-/* cap */
-.cap-container{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.cap-box {
-    background-color: #f0f0f1;
-    height: auto;
-    width: 150%;
-    border-radius: 10px;
-}
-
-.cap-img {
-    width: 100%; /* Set image width to 100% */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.cap-tekst{
-    font-family: "fractul-variable",sans-serif; font-variation-settings: 'wght' 400;
-   font-size: 20px;
-}
-.cap-container{
-    display: flex;
-
-    gap: 2rem;
-}
-.pris{
-    color: var(--fire-brick);
-}
-
-
-
-
-
-
-/* hover effekt */
-/* Hoodie Box */
-.hoddie-box:hover {
-    background-color: #dad7d7; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-}
-
-/* Sweatshirt Box */
-.sweatshirt-box:hover {
-    background-color:#dad7d7; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-}
-
-/* T-shirt Box */
-.t-shirt-box:hover {
-    background-color: #dad7d7; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-}
-
-/* Cap Box */
-.cap-box:hover {
-    background-color:#dad7d7; /* Change background color on hover */
-    color: #ffffff; /* Change text color on hover */
-}
-
-/* Add transition effect for smooth hover transition */
-.hoddie-box,
-.sweatshirt-box,
-.t-shirt-box,
-.cap-box {
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
-    cursor: pointer;
-}
 /* bestseller 👆 */
 
 
@@ -517,6 +343,7 @@ header nav {
     font-weight: 700;
     margin-top: -10%
 }
+
 
 .instagram-area{
     padding-top: 20%;
