@@ -78,6 +78,18 @@ subscribeButton.addEventListener("click", function () {
 
 // link connection area 👇
 
+arrowDown;
+// arrow down click event
+document.addEventListener("DOMContentLoaded", function () {
+  const arrowDown = document.getElementById("arrowDown");
+  arrowDown.addEventListener("click", function () {
+    const bestsellerBtn = document.getElementById("bestseller-btn");
+    if (bestsellerBtn) {
+      bestsellerBtn.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
 // link to heavyweightHoodie
 document.addEventListener("DOMContentLoaded", function () {
   const heavyweightHoodie = document.getElementById("heavyweightHoodie");
@@ -113,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const tShirt = document.getElementById("tShirt");
   tShirt.addEventListener("click", function () {
-    window.location.href = "../html/t-shirt.html";
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -121,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const jackets = document.getElementById("jackets");
   jackets.addEventListener("click", function () {
-    window.location.href = "../html/jackets.html";
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -129,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const jeans = document.getElementById("jeans");
   jeans.addEventListener("click", function () {
-    window.location.href = "../html/jeans.html";
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -137,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const jerseys = document.getElementById("jerseys");
   jerseys.addEventListener("click", function () {
-    window.location.href = "../html/jerseys.html";
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -145,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const sweatshirts = document.getElementById("sweatshirts");
   sweatshirts.addEventListener("click", function () {
-    window.location.href = "../html/sweatshirts.html";
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -154,6 +166,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const lookBook = document.getElementById("lookBook");
   lookBook.addEventListener("click", function () {
     window.location.href = "";
+  });
+});
+
+// link to 404
+document.addEventListener("DOMContentLoaded", function () {
+  const baeredygtighed = document.getElementById("baeredygtighed");
+  baeredygtighed.addEventListener("click", function () {
+    window.location.href = "/html/404.html";
+  });
+});
+
+// link to 404
+document.addEventListener("DOMContentLoaded", function () {
+  const vMv = document.getElementById("vMv");
+  vMv.addEventListener("click", function () {
+    window.location.href = "/html/404.html";
+  });
+});
+
+// link to 404
+document.addEventListener("DOMContentLoaded", function () {
+  const capCap = document.getElementById("capCap");
+  capCap.addEventListener("click", function () {
+    window.location.href = "/html/404.html";
   });
 });
 
@@ -178,7 +214,6 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
 
 // Path to hoodie
 document.addEventListener("DOMContentLoaded", function () {
