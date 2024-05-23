@@ -37,6 +37,18 @@ omOsNavContainer.addEventListener("mouseleave", () => {
   omOsNavContainer.style.display = "none";
 });
 
+// arrow left and right 👇
+function scrollLeft() {
+  const container = document.querySelector(".product-front-page");
+  container.scrollLeft -= 400; // Adjust the value to control the scroll amount
+}
+
+function scrollRight() {
+  const container = document.querySelector(".product-front-page");
+  container.scrollLeft += 400; // Adjust the value to control the scroll amount
+}
+// arrow left and right 👆
+
 // thank you message 📧👇
 
 const subscribeButton = document.getElementById("subscribeButton");
@@ -136,12 +148,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 // Get the button
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
