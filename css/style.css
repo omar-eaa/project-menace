@@ -235,6 +235,14 @@ header nav {
     transition: background-color 0.3s;
 }
 
+.snap{
+    height: 80%;
+    max-width: 70vh;
+    border-radius: 10px;
+    margin-right: 60%;
+    padding-top: 8%;
+}
+
 .btn:hover {
     background-color: #ffffff;
     color: #000000;
@@ -821,7 +829,7 @@ header nav {
         position: absolute;
         top: 20px;
         right: 25px;
-        font-size: 36px;
+        font-size: 20px;
         background: none;
         border: none;
         color: #fff;
