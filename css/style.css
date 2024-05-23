@@ -217,12 +217,12 @@ header nav {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 700;
     font-size: 1.7rem;
-    padding-top: 92%;
 }
 
 .arrow{
     display: flex;
-    padding-top: 40%;
+    position: absolute;
+    margin-top: 43%;
 }
 
 .btn {
@@ -897,7 +897,7 @@ header nav {
     }
     .bestseller-titel {
         font-size: 2.5rem;
-
+        padding-top: 100%;
     }
     .product-front-page {
         padding-left: 15%;
