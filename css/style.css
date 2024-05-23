@@ -353,7 +353,7 @@ header nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(226, 46, 46, 0.5);
     border: none;
     color: white;
     padding: 30px; /* Increased padding for bigger buttons */
@@ -656,7 +656,7 @@ header nav {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(243, 151, 151);
     color: white;
     cursor: pointer;
     padding: 15px;
