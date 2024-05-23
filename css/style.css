@@ -273,11 +273,19 @@ header nav {
 
 
 /* Scroll CSS */
+/* Scroll CSS */
+.product-gallery {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .product-front-page {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent wrapping of child elements */
     padding: 20px; /* Add some padding */
     padding-top: 10%;
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
 .product-container {
@@ -322,6 +330,31 @@ header nav {
     display: block;
     color: #555; /* A darker gray for the price */
     font-size: 16px; /* Adjust the font size if needed */
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 20px; /* Increased padding for bigger buttons */
+    cursor: pointer;
+    z-index: 1;
+    font-size: 24px; /* Increased font size for bigger buttons */
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
+.scroll-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* bestseller 👆 */
