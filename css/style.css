@@ -466,7 +466,7 @@ header nav {
     padding-top: 10%;
     color: #989595;
     cursor: pointer;
-    gap: 10ox;
+    gap: 10px;
 }
 
 
@@ -500,7 +500,7 @@ header nav {
 
 /* email container section 👇 */
 .email-member-section {
-    background-color: white;
+    /* background-color: white; */
     /* Black background color for the section */
     color: white;
     /* Text color */

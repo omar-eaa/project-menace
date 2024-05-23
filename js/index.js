@@ -178,3 +178,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+// Path to hoodie
+document.addEventListener("DOMContentLoaded", function () {
+  const path = document.getElementById("path");
+  path.addEventListener("click", function () {
+    window.location.href = "../html/hoodies.html";
+  });
+});
