@@ -53,7 +53,9 @@
     <section class="shop-nav-container" id="shop-nav-container">
       <div class="all-clothing__accessories-container">
         <div class="shop-left-area">
+
           <p class="all-clothing">All Clothing</p>
+
           <ul class="all-clothing-li">
             <li id="heavyweightHoodie">
               <a href="/html/hoodies.html" style="text-decoration: none; color: inherit">Heavyweight Hoodie</a>
@@ -71,17 +73,8 @@
             <li>Caps</li>
           </ul>
         </div>
-        <img
-          src="/img/snapback-2.png"
-          alt="navigation image"
-          style="
-            height: 80%;
-            max-width: 70vh;
-            border-radius: 10px;
-            margin-right: 60%;
-            padding-top: 8%;
-          "
-        />
+        <img class="snap"
+          src="/img/snapback-2.png" alt="navigation image"/>
       </div>
     </section>
 
@@ -161,8 +154,8 @@
     <!-- bestSeller area -->
     <h2 id="pG" class="bestseller-titel">BestSellers</h2>
     <section id="pG" class="product-gallery">
-      <button class="scroll-button left-button" onclick="scrollLeft()">
-       
+      <button class="scroll-button left-button" onclick="scrollContainerLeft()">&lt</button>
+      
       </button>
       <div class="product-front-page">
         <div class="product-container">
@@ -261,8 +254,8 @@
           </div>
         </div>
       </div>
-      <button class="scroll-button right-button" onclick="scrollRight()">
-    
+      <button class="scroll-button right-button" onclick="scrollContainerRight()">&gt</button>
+      
       </button>
     </section>
 
@@ -379,4 +372,5 @@
     <script src="/js/index.js"></script>
     <script src="/js/iphone12.js"></script>
   </body>
-</html>
+
+  </html>
