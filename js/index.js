@@ -1,3 +1,12 @@
+// arrow down click
+
+document.addEventListener("DOMContentLoaded", function () {
+  const arro = document.getElementById("arro");
+  arro.addEventListener("click", function () {
+    window.location.href = "#pG";
+  });
+});
+
 // Get the shop element
 const shopElement = document.getElementById("shop");
 
