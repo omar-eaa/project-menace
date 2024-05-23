@@ -217,6 +217,12 @@ header nav {
     font-family: "fractul-variable", sans-serif;
     font-variation-settings: 'wght' 700;
     font-size: 1.7rem;
+    padding-top: 92%;
+}
+
+.arrow{
+    display: flex;
+    padding-top: 40%;
 }
 
 .btn {
