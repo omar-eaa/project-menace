@@ -222,3 +222,21 @@ document.addEventListener("DOMContentLoaded", function () {
     window.location.href = "../html/hoodies.html";
   });
 });
+
+//  link to hoodie from shop here button
+document.addEventListener("DOMContentLoaded", function () {
+  const shopHereButton = document.getElementById("shopHereButton");
+  shopHereButton.addEventListener("click", function () {
+    window.location.href = "/html/hoodies.html";
+  });
+});
+
+shopHereButtonMobile;
+
+//  link to hoodie from shop here button mobile
+document.addEventListener("DOMContentLoaded", function () {
+  const shopHereButtonMobile = document.getElementById("shopHereButtonMobile");
+  shopHereButtonMobile.addEventListener("click", function () {
+    window.location.href = "/html/hoodies.html";
+  });
+});
