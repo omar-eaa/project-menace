@@ -218,12 +218,12 @@ header nav {
     font-variation-settings: 'wght' 700;
     font-size: 1.7rem;
 }
-
-.arrow{
-    display: flex;
-    position: absolute;
-    margin-top: 43%;
-}
+    .arrow {
+        display: flex;
+        position: absolute;
+        margin-top: 45%;
+        padding-left: 47%;
+    }
 
 .btn {
     background-color: transparent;
@@ -718,6 +718,15 @@ header nav {
         font-family: Arial, sans-serif;
        
     }
+
+    .arrow{
+        display: flex;
+        position: absolute;
+        color: #000;
+        top: 20%;
+        left: 10%;
+    }
+    
 
     .test-div {
         width: 100%;
