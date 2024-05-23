@@ -345,10 +345,13 @@ header nav {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
-    padding: 20px; /* Increased padding for bigger buttons */
+    padding: 30px; /* Increased padding for bigger buttons */
     cursor: pointer;
     z-index: 1;
-    font-size: 24px; /* Increased font size for bigger buttons */
+    font-size: 36px; /* Increased font size for bigger buttons */
+    display: flex; /* Center content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
 }
 
 .left-button {

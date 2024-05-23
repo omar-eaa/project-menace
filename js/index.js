@@ -47,12 +47,12 @@ omOsNavContainer.addEventListener("mouseleave", () => {
 });
 
 // arrow left and right 👇
-function scrollLeft() {
+function scrollContainerLeft() {
   const container = document.querySelector(".product-front-page");
   container.scrollLeft -= 400; // Adjust the value to control the scroll amount
 }
 
-function scrollRight() {
+function scrollContainerRight() {
   const container = document.querySelector(".product-front-page");
   container.scrollLeft += 400; // Adjust the value to control the scroll amount
 }
